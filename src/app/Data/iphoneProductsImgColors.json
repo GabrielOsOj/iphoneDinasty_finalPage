@@ -36,10 +36,12 @@
         "imagenes": [
             {
                 "imgColor": "#2A5BDE",
-                "imgFront": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.png",
-                "imgBack": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.png",
-                "imgCamera": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png"
+                "imgFront": "assets/iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.png",
+                "imgBack": "assets/iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.png",
+                "imgCamera": "assets/iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.png",
+                "imgSide": "assets/iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png"
+                
+            
             },
             {
                 "imgColor": "#FFFFFF",
@@ -471,12 +473,13 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
+                   
                 "imgColor": "#FFFFFF",
-                "imgFront": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.png",
-                "imgBack": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.png",
-                "imgCamera": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.png",
-                "imgSide": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_backAndSide.png",
-                "imgSpecial": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.png"
+                "imgFront": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.png",
+                "imgBack": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.png",
+                "imgCamera": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.png",
+                "imgSide": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_backAndSide.png",
+                "imgSpecial": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.png"
             },
             {
                 "imgColor": "#A020F0",

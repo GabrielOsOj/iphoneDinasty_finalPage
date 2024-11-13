@@ -1,0 +1,57 @@
+<section class="product-page">
+
+    <!-- Contenedor principal de la galería de imágenes -->
+    <div class="product-gallery">
+        <!-- Imagen principal -->
+        <div class="main-image">
+            <img [src]="mainImageUrl" alt="Imagen principal del producto" />
+        </div>
+
+        <!-- Carrusel de miniaturas -->
+        <div class="image-carousel">
+            <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
+            <div class="thumbnails-container">
+
+                @for(img of phoneData().phoneImgColorsSetSelected;
+                track $index;
+                let i = $index;
+                )
+                {
+                <div class="thumbnail" (click)="setMainImage($index)">
+                    <img [src]="img" [class.active]="i === selectedImageIndex">
+                </div>
+                }
+
+            </div>
+            <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
+        </div>
+    </div>
+
+    <!-- Información del producto (parte derecha) -->
+    <div class="product-details">
+        <h1>{{phoneData().phoneModel}}</h1>
+
+
+        <!-- Opciones de color -->
+        <div class="color-options env-gar">
+            <h3>Colores</h3>
+            <div class="color-circles">
+                @for(color of phoneData().phonoColorsAvalible; track $index){
+                <div class="color-circle" [ngStyle]="{'backgroundColor':color}" title="" (click)="fnSelectColor(color)"
+                    (click)="setMainImage(selectedImageIndex)"></div>
+                }
+            </div>
+        </div>
+
+        <div class="button-section">
+            <p>Contacta con nostros para saber mas sobre el producto y su disponibilidad</p>
+            <button>Consultar</button>
+            <p>Compara este y otros productos mas!</p>
+            <button [routerLink]="['/comparador']"> Comparar</button>
+        </div>
+
+        <!-- Sección de Color y Memoria debajo del botón de compra -->
+         
+    </div>
+
+</section>

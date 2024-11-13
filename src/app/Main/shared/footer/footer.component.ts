@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { objImg } from '../../Core/iphone-product';
+import { objImg } from '../../../Core/iphone-product';
 
 @Component({
   selector: 'app-footer',

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { objImg } from '../../Core/iphone-product';
+import { objImg } from '../../../Core/iphone-product';
 
 @Component({
   selector: 'app-header',

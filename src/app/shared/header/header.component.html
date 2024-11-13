@@ -1,0 +1,46 @@
+<header>
+    <div class="navbar" [ngClass]="{'normal':isNotOnTopOfPage}">
+
+        <div class="logo">
+            <a href=""><img [src]="Icon.url" [alt]="Icon.name"/></a>
+        </div>
+
+        <div class="menu-icon" #menuIcon (click)="openMenu()">
+            &#9776;
+        </div>
+        
+        <nav>
+            <ul id="nav-links-norm">
+                <li><a href="#" class="btn">Mac</a></li>
+                <li><a [routerLink]="['/product2',13]"class="btn">iPad</a></li>
+                <li><a href="product2" class="btn">iPhone</a></li>
+                <li><a href="testZone" class="btn">testZone</a></li>
+                <li><a 
+                    href="comparador" class="btn">Comparar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<div *ngIf="isMenuOpen">
+
+    <nav class="nav-mobile">
+
+        <div class="nav-mobile-icon" (click)="openMenu()">
+
+            <img src="icons/upload.png" alt="cross">
+           
+        </div>
+
+        <ul id="nav-mobile-links">
+            <li><a href="#" class="btn">Mac</a></li>
+            <li><a href="#" class="btn">iPad</a></li>
+            <li><a href="product" class="btn">iPhone</a></li>
+            <li><a href="testZone" class="btn">testZone</a></li>
+            <li><a 
+                href="comparador" class="btn">Comparar</a></li>
+        </ul>
+    </nav>
+    
+</div>

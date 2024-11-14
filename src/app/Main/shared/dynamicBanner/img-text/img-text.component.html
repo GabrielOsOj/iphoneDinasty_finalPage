@@ -1,51 +1,49 @@
-<div *ngIf = "false">
-    <div class="banner-con" *ngIf = "toRight()" >
-      <div class="banner-content">
-        <h2>{{bannerDataIphone[2].model}} </h2>
-        <p>{{bannerDataIphone[2].description.text}}</p>
-      </div>
-      <div class="banner-image">
-        <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="iPhone display">
-      </div>
+<div *ngIf="false">
+  <div class="banner-con" *ngIf="toRight()">
+    <div class="banner-content">
+      <h2>{{bannerDataToLoad().title}} </h2>
+      <p>{{bannerDataToLoad().text}}</p>
     </div>
-    
+    <div class="banner-image">
+      <img [src]="bannerImgInput" loading="lazy" alt="iPhone display">
+    </div>
+  </div>
+
   <div class="banner-con" *ngIf="!toRight()">
-     <div class="banner-image">
-      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="iPhone display">
+    <div class="banner-image">
+      <img [src]="bannerImgInput" loading="lazy" alt="iPhone display">
     </div>
     <div class="banner-content">
-      <h2>{{bannerDataIphone[2].model}} </h2>
-      <p>{{bannerDataIphone[2].description.text}}</p>
+      <h2>{{bannerDataToLoad().title}} </h2>
+      <p>{{bannerDataToLoad().text}}</p>
     </div>
   </div>
-  </div>
-  
-  
-  
-  <div *ngIf = "true">
-    <div class="banner-con" *ngIf = "toRight()">
+</div>
+
+
+<!-- if video exists -->
+<div *ngIf="true">
+  <div class="banner-con" *ngIf="toRight()">
     <div class="banner-content">
-      <h2>{{bannerDataIphone[2].model}} </h2>
-      <p>{{bannerDataIphone[2].description.text}}</p>
+      <h2>{{bannerDataToLoad().title}} </h2>
+      <p>{{bannerDataToLoad().text}}</p>
     </div>
     <div class="banner-vi">
       <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
-        <source [src]="bannerVi[2].videoUrl" type="video/mp4" />
+        <source [src]="bannerDataToLoad().urlVideo" type="video/mp4" />
       </video>
     </div>
   </div>
-  
+
   <div class="banner-con" *ngIf="!toRight()">
-   <div class="banner-vi">
-    <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
-      <source [src]="bannerVi[1].videoUrl" type="video/mp4" />
-    </video>
+    <div class="banner-vi">
+      <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
+        <source [src]="bannerDataToLoad().urlVideo" type="video/mp4" />
+      </video>
+    </div>
+    <div class="banner-content">
+      <h2>{{bannerDataToLoad().title}} </h2>
+      <p>{{bannerDataToLoad().text}}</p>
+    </div>
   </div>
-  <div class="banner-content">
-    <h2>{{bannerDataIphone[2].model}} </h2>
-    <p>{{bannerDataIphone[2].description.text}}</p>
-  </div>
-  </div>
-  </div>
-  
-  
+</div>

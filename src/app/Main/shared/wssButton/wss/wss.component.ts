@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { objImg } from '../../../../Core/iphone-product';
+
 import { CommonModule } from '@angular/common';
+import { objImg } from '../../../../Core/Objs';
 
 @Component({
   selector: 'app-wss',

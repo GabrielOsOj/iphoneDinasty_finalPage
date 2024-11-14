@@ -63,9 +63,3 @@ export interface IphoneProductColorImgs {
     imagenes: IphoneImagenColor[];
 }
 
-//interfaz global para imagenes sueltas
-export interface objImg {
-    url: string;
-    name: string;
-    alt?: string;
-  }

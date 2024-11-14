@@ -1,6 +1,7 @@
 import { ApplicationRef, ChangeDetectorRef, Component, inject } from '@angular/core';
 import { first, interval } from 'rxjs';
-import { objImg } from '../../../Core/iphone-product';
+import { objImg } from '../../../Core/Objs';
+
 
 @Component({
   selector: 'app-banner',

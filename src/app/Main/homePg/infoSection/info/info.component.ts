@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { objImg } from '../../../../Core/iphone-product';
+import { objImg } from '../../../../Core/Objs';
+
 
 @Component({
   selector: 'app-info',
@@ -10,7 +11,7 @@ import { objImg } from '../../../../Core/iphone-product';
 })
 export class InfoComponent {
 
-  Icons:Array<objImg> = [
+  Icons: Array<objImg> = [
     { url: 'icons/bank.png', name: 'bank' },
     { url: 'icons/box.png', name: 'box' },
     { url: 'icons/shield.png', name: 'shield' },

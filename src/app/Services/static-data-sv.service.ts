@@ -17,13 +17,14 @@ export class StaticDataSvService {
 
   constructor() { }
 
+  //usado por tecnical-sheet component
   getPhoneData(): Array<IphoneProduct> {
     return phoneProductImg;
   }
 
-  getPhoneAndImgData(): Array<IphoneProduct> {
-    return phoneProductImg;
-  }
+  // getPhoneAndImgData(): Array<IphoneProduct> {
+  //   return phoneProductImg;
+  // }
 
   // getPhoneAndImgColorsData(): Array<IphoneProductColorImgs> {
   //   return phoneProductImgsColors;

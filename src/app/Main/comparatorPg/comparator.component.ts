@@ -31,9 +31,6 @@ export class ComparatorComponent {
   varHasThreeSelectors:boolean = true;
 
   constructor(private data:StaticDataSvService){
-    // this.dataPhonesT = this.data.getData();
-    // this.dataPhonesT = this.data.getPhoneData();
-    // this.dataPhonesT = this.data.getPhoneAndImgData();
     this.dataPhonesT = this.data.getPhoneAndImgColorsData();
 
     if(this.fnIsScreenSmall()){

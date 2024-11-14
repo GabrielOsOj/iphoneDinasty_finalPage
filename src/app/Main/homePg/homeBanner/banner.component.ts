@@ -43,7 +43,6 @@ export class BannerComponent {
   }
 ]
   
-
   index: number = 0;
   counter: number = 0;
 
@@ -74,7 +73,5 @@ export class BannerComponent {
   restartClock() {
     this.counter = 0;
   }
-
-
 
 }

@@ -2,31 +2,26 @@
     {
         "title": "iPhone 12 - Innovación y Diseño",
         "text": "Explora el iPhone 12, con un diseño elegante, tecnología 5G y la potencia del chip A14 Bionic. Perfecto para aquellos que buscan rendimiento y estilo.",
-        "urlVideo": "https://example.com/videos/iphone12.mp4",
-        "urlImg": ""
+        "urlImg": "/bannersAllPictures/ip12_white_camera.png"
     },
     {
         "title": "iPhone 13 - Potencia y Eficiencia",
         "text": "Conoce el iPhone 13, con el eficiente chip A15 Bionic, duración de batería mejorada y un sistema de cámaras avanzado para capturar cada momento.",
-        "urlVideo": "https://example.com/videos/iphone13.mp4",
-        "urlImg": ""
+        "urlImg": "/bannersAllPictures/ip13_blue_front.png"
     },
     {
         "title": "iPhone 14 - Tecnología de Última Generación",
         "text": "Descubre el iPhone 14, con tecnología innovadora, un rendimiento de cámara aún mejor y seguridad mejorada con Face ID.",
-        "urlVideo": "https://example.com/videos/iphone14.mp4",
-        "urlImg": ""
+        "urlImg": "/bannersAllPictures/ip14_purple_special.png"
     },
     {
         "title": "iPhone 15 - Rendimiento sin Límites",
         "text": "El iPhone 15 redefine la experiencia móvil con el chip A16 Bionic y una pantalla más brillante. Ideal para quienes exigen lo mejor.",
-        "urlVideo": "https://example.com/videos/iphone15.mp4",
-        "urlImg": ""
+        "urlImg": "/bannersAllPictures/ip15_yelow_back.jpg"
     },
     {
         "title": "iPhone 16 - Futuro en tus Manos",
         "text": "Con el iPhone 16, disfruta de un diseño revolucionario, tecnología de última generación y el chip A17 para el máximo rendimiento.",
-        "urlVideo": "https://example.com/videos/iphone16.mp4",
-        "urlImg": ""
+        "urlImg": "/bannersAllPictures/ip16_proMax_desertTitanium_front.jpg"
     }
 ]

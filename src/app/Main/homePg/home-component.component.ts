@@ -9,6 +9,8 @@ import { FamilyCarrouselComponent } from './productsSection/family-carrousel/fam
 import { InfoComponent } from './infoSection/info/info.component';
 import { FaqComponent } from "./faqSection/faq/faq.component";
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
+import { BannerDataSvService } from '../../Services/bannerDataSv/banner-data-sv.service';
+import { bannerData } from '../../Core/banners-data';
 
 @Component({
   selector: 'app-home-component',
@@ -18,5 +20,16 @@ import { WssComponent } from "../shared/wssButton/wss/wss.component";
   styleUrl: './home-component.component.css'
 })
 export class HomeComponentComponent {
+
+  bannersDataL:Array<bannerData>;
+
+  constructor(private bannerData :BannerDataSvService){
+    //in this main, exists two banners
+    this.bannersDataL = bannerData.fnGetManyRandomData(2);
+
+  }
+
+  
+
 
 }

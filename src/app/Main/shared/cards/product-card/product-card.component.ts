@@ -20,8 +20,6 @@ export class ProductCardComponent {
   ngOnInit(): void {
     this.elementWidth.emit(this.elem.nativeElement.offsetWidth);
     this.randomNum = Math.floor(Math.random() * (this.phoneDetails().imagenes.length - 1));
-   
-    console.log(this.phoneDetails().modelo+"  "+this.randomNum);
-    console.log(this.phoneDetails().modelo)
   }
+  
 }

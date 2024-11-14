@@ -14,7 +14,7 @@ import { StaticDataSvService } from '../../../../Services/static-data-sv.service
 export class ImgTextComponent {
 
   bannerDataToLoad = input.required<bannerData>();
-  bannerImgInput? = input<string>();
+  bannerHasVideo = input(false);
 
   constructor() {}
 

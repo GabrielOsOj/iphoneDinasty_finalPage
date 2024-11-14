@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { VideoBanner } from '../../../../Core/videoBanner';
 import { StaticDataSvService } from '../../../../Services/static-data-sv.service';
 import { CommonModule } from '@angular/common';
+import { objVideo } from '../../../../Core/Objs';
 
 @Component({
   selector: 'app-video-full',
@@ -12,14 +13,9 @@ import { CommonModule } from '@angular/common';
 })
 export class VideoFullComponent {
 
-  bannerVi!:  Array<VideoBanner>;
+  bannerVi=input.required<objVideo>();
 
-  constructor(private staticDataSvService: StaticDataSvService) {}
-
-  ngOnInit(): void {
-    this.bannerVi = this.staticDataSvService.getBannerVideo();
-  }
-
+  constructor() {}
 
   onVideoEnd(event: Event): void {
     const videoElement = event.target as HTMLVideoElement;

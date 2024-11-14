@@ -1,6 +1,6 @@
-<div class="banner-container" *ngIf = "bannerVi">
+<div class="banner-container">
     <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
-      <source [src]="bannerVi[2].videoUrl" type="video/mp4" />
+      <source [src]="bannerVi().url" type="video/mp4"/>
     </video>
     </div>
     

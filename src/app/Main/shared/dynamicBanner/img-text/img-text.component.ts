@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { bannerPhone } from '../../../../Core/banners-data';
+import { bannerData, bannerPhone } from '../../../../Core/banners-data';
 import { VideoBanner } from '../../../../Core/videoBanner';
 import { CommonModule } from '@angular/common';
 import { StaticDataSvService } from '../../../../Services/static-data-sv.service';
@@ -12,28 +12,18 @@ import { StaticDataSvService } from '../../../../Services/static-data-sv.service
   styleUrl: './img-text.component.css'
 })
 export class ImgTextComponent {
- 
-  bannerDataIphone: bannerPhone[] = [];
-  bannerVi!:  Array<VideoBanner>;
 
-  constructor(private staticDataService: StaticDataSvService) {}
-  // constructor() {}
+  bannerDataToLoad = input.required<bannerData>();
+  bannerImgInput? = input<string>();
 
-  ngOnInit(): void {
-    
-    this.bannerDataIphone = this.staticDataService.getBannerStatic();
+  constructor() {}
 
-    this.bannerVi = this.staticDataService.getBannerVideo();
-  }
-  
-  // toRight: boolean = false;
-  
   toRight = input(false);
-
 
   onVideoEnd(event: Event): void {
     const videoElement = event.target as HTMLVideoElement;
     videoElement.pause(); // Pausar el video al final
   }
+
   
 }

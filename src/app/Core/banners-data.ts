@@ -1,7 +1,8 @@
 export interface bannerData {
     title : string,
     text : string,
-    urlVideo? : string
+    urlVideo? : string,
+    urlImg? : string
 }
 
 export interface bannerPhone {

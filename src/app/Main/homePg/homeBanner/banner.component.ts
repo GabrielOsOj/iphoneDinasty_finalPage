@@ -48,12 +48,12 @@ export class BannerComponent {
 
   constructor() {
 
-    this._applicationRef.isStable.pipe(first((isStable) => isStable))
-      .subscribe(() => {
+    // this._applicationRef.isStable.pipe(first((isStable) => isStable))
+    //   .subscribe(() => {
 
-        interval(500).subscribe(() => {this.timerAdmin()})
+    //     interval(500).subscribe(() => {this.timerAdmin()})
 
-      });
+    //   });
 
   }
 

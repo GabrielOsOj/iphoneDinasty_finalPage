@@ -15,14 +15,22 @@ export class BannerDataSvService {
   }
 
   fnGetManyRandomData(quantity: number): Array<bannerData>{
-    let arr = [quantity];
-    for(let i=0; i<quantity; i++){
-      
+
+    let arr:Array<bannerData>= [...bannerRDMdata];
+
+    if(quantity>=bannerRDMdata.length){
+      quantity = bannerRDMdata.length;
     }
-    return bannerRDMdata;
+
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]]; // Intercambiamos los elementos
+    }
+
+    return arr.slice(0, quantity);
   }
 
-  getRandomData(max: number){
+  private getRandomData(max: number){
     return Math.floor(Math.random() * max);
   }
 

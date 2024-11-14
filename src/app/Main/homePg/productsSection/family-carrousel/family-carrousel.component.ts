@@ -33,7 +33,6 @@ export class FamilyCarrouselComponent implements OnInit {
   constructor(private data:StaticDataSvService){
     // this.phonesDetails=;
     this.phonesDetails=data.getPhoneAndImgColorsData();
-    console.log(this.phonesDetails)
   
   }
   //retocar el tema de los botones de la familia y el filtro

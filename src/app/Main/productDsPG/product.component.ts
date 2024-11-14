@@ -4,11 +4,12 @@ import { ImgComponent } from "./phoneImgSection/img/img.component";
 import { IphoneProductColorImgs } from '../../Core/iphone-product';
 import { StaticDataSvService } from '../../Services/static-data-sv.service';
 import { phoneColorData } from './DTOs/phoneColorData';
+import { TecnicalSheetComponent } from "./tecnicalDetailsSection/tecnical-sheet/tecnical-sheet.component";
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [HeaderComponent, ImgComponent],
+  imports: [HeaderComponent, ImgComponent, TecnicalSheetComponent],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })
@@ -30,15 +31,11 @@ export class ProductComponent implements OnInit{
     this.fnLoadImgData();
   }
 
-  // fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: string) {
-  //   return phones.filter((phone) =>{return phone.modelo == phoneModel})[0];
-  // }
-
   fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: string) {
-    console.log(phones)
-    // return phones.filter((phone) =>{return phone.family == 14})[0];
-    return phones[0];
+    
+    return phones.filter((phone) =>{return phone.modelo == phoneModel})[0];
   }
+
 
   fnLoadImgData() {
     this.phoneData.phoneModel = this.phoneSelected.modelo;

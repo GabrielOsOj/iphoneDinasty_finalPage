@@ -14,7 +14,6 @@ import { StaticDataSvService } from '../../../../Services/static-data-sv.service
 export class ImgTextComponent {
  
   bannerDataIphone: bannerPhone[] = [];
-  
   bannerVi!:  Array<VideoBanner>;
 
   constructor(private staticDataService: StaticDataSvService) {}

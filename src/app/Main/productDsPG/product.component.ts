@@ -36,7 +36,6 @@ export class ProductComponent implements OnInit{
     return phones.filter((phone) =>{return phone.modelo == phoneModel})[0];
   }
 
-
   fnLoadImgData() {
     this.phoneData.phoneModel = this.phoneSelected.modelo;
     this.phoneData.phoneDescription = this.phoneSelected.pantalla.medidas;

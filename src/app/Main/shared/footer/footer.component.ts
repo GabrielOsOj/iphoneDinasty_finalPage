@@ -12,12 +12,14 @@ import { objImg } from '../../../Core/Objs';
 
 export class FooterComponent {
 
-  Icons:Array<objImg> = [
-    { url: 'icons/twitter.png', name: 'twitter' },
-    { url: 'icons/social.png', name: 'social' },
-    { url: 'icons/instagram.png', name: 'instagram' },
-    { url: 'icons/tik-tok.png', name: 'tik-tok' }
-  ]
+  url:string = "icons/footer-section/";
   
+
+  Icons:Array<objImg> = [
+    { url: this.url+'twitter.webp', name: 'twitter' },
+    { url: this.url+'social.webp', name: 'social' },
+    { url: this.url+'instagram.webp', name: 'instagram' },
+    { url: this.url+'tik-tok.webp', name: 'tik-tok' }
+  ]
 
 }

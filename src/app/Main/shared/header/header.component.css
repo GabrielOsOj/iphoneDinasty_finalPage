@@ -1,6 +1,9 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     width: 100%;
-
     position: sticky;
     top: 0;
     z-index: 999;
@@ -13,7 +16,6 @@ header {
     align-items: center;
     padding: 5px 15px;
 
-    background-color: rgba(255, 255, 255, 0.043);
     visibility: hidden;
 }
 
@@ -68,10 +70,9 @@ nav ul li a:hover {
 /* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
 
+    
     #nav-links-norm {
-
         display: none;
-
     }
 
     .navbar {
@@ -94,7 +95,7 @@ nav ul li a:hover {
         z-index: 999;
         top: 0;
 
-        padding: 20px;
+        /* padding: 20px; */
         /* background-color: var(--light-fourty-color);  */
         background-color: #fff;
     }
@@ -109,7 +110,6 @@ nav ul li a:hover {
     nav div img {
         width: 1.5rem;
         height: auto;
-        filter: contrast(0) brightness(100);
         cursor: pointer;
     }
 
@@ -130,7 +130,7 @@ nav ul li a:hover {
         display: flex;
     }
 
-
+ 
     /*
         revisar bien las medidas en general, el codigo css debe tener la menor
         cantidad de valores estaticos posible

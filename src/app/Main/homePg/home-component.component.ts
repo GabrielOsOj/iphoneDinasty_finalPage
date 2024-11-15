@@ -16,22 +16,33 @@ import { objVideo } from '../../Core/Objs';
 @Component({
   selector: 'app-home-component',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, SpacerComponent, BannerComponent, ImgTextComponent, VideoFullComponent, FamilyCarrouselComponent, InfoComponent, FaqComponent, WssComponent],
+  imports: [HeaderComponent,FooterComponent,SpacerComponent,BannerComponent,
+    ImgTextComponent,FamilyCarrouselComponent,InfoComponent,FaqComponent,WssComponent
+  ],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })
+
+/*
+[VideoFullComponent]
+*/
 export class HomeComponentComponent {
 
-  bannersDataL:Array<bannerData>;
-
+  bannersDataL:Array<bannerData>=[];
+  
   constructor(private bannerData :BannerDataSvService){
     //in this main, exists two banners
-    this.bannersDataL = bannerData.fnGetManyRandomData(2);
+    this.bannersDataL[0]= bannerData.fnGetPhoneData(0);
+    this.bannersDataL[1]= bannerData.fnGetPhoneData(2);
   }
 
   videoT:objVideo={
     url:"/videos/bannerVideo.mp4"
   }
 
+  goTo(name:string){
+    let a = document.getElementById(name);
+    a?.scrollIntoView();
+  }
 
 }

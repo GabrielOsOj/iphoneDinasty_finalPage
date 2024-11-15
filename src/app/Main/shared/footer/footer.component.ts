@@ -16,10 +16,7 @@ export class FooterComponent {
   
 
   Icons:Array<objImg> = [
-    { url: this.url+'twitter.webp', name: 'twitter' },
-    { url: this.url+'social.webp', name: 'social' },
     { url: this.url+'instagram.webp', name: 'instagram' },
-    { url: this.url+'tik-tok.webp', name: 'tik-tok' }
   ]
 
 }

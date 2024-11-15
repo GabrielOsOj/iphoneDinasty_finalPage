@@ -12,7 +12,7 @@ import { objImg } from '../../../../Core/Objs';
 })
 export class WssComponent {
   
-  Icons:objImg= { url: 'icons/whatsapp.png', name: 'twitter'}
+  Icons:objImg= { url: 'icons/many-icons/whatsapp.webp', name: 'twitter'}
   isStuck=false;
   almendra:number = 0;
   

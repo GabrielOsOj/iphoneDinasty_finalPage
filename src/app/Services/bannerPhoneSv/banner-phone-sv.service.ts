@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { bannerPhone } from '../../Core/banners-data';
+import { bannerData, bannerPhone } from '../../Core/banners-data';
 import banneInfoPhone from '../../Data/banners-json/bannerStatic.json'
 
 @Injectable({
@@ -9,8 +9,8 @@ export class BannerPhoneSvService {
 
   constructor() { }
 
-  fnGetPhoneBannerInfo(): bannerPhone{
-    return banneInfoPhone [0];
-
+  fnGetPhoneBannerInfo(model : string): bannerPhone{
+    return banneInfoPhone.filter(phone=>phone.model=model)[0];
   }
+  
 }

@@ -18,6 +18,9 @@ export class BannerDataSvService {
     return bannerRDMdata.slice(0, quantity);
   }
 
+  fnGetPhoneData(id:number):bannerData{
+    return bannerRDMdata[id];
+  }
 
   // fnGetManyRandomData(quantity: number): Array<bannerData>{
   //   let arr:Array<bannerData>= [...bannerRDMdata];

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { objImg } from '../../../Core/Objs';
 
@@ -15,6 +15,7 @@ import { objImg } from '../../../Core/Objs';
 export class HeaderComponent {
 
   Icon: objImg = { url: 'icons/fake-logo.png', name: 'Dinastia Iphone' };
+  goToEmitter = output<string>();
 
   isMenuOpen: boolean = false;
   isNotOnTopOfPage:boolean = false;
@@ -26,6 +27,11 @@ export class HeaderComponent {
 
   openMenu() {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  goToEmit(to:string){
+    this.isMenuOpen=!this.isMenuOpen;
+    this.goToEmitter.emit(to);
   }
 
 }

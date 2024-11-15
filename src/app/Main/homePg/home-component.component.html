@@ -1,23 +1,25 @@
-<app-header></app-header>
-<app-banner></app-banner>
-<app-spacer></app-spacer>
+<app-header (goToEmitter)="goTo($event)"></app-header>
 
+<div class="header" id="start">
+<app-banner></app-banner>
+</div>
+
+<app-spacer></app-spacer>
 <app-img-text [toRight]="false" 
 [bannerDataToLoad]="bannersDataL[0]"
 ></app-img-text>
 
 <app-spacer></app-spacer>
-<app-family-carrousel></app-family-carrousel>
+<app-family-carrousel id="allProducts"></app-family-carrousel>
 <app-spacer></app-spacer>
 
 <app-img-text [toRight]="true" 
-[bannerDataToLoad]="bannersDataL[1]" 
-[bannerHasVideo]="true"
+[bannerDataToLoad]="bannersDataL[1]"
 ></app-img-text>
 
 <app-spacer></app-spacer>
 <!-- <app-video-full></app-video-full> -->
-<app-info></app-info>
-<app-faq></app-faq>
+<app-info id="info"></app-info>
+<app-faq id="faq"></app-faq>
 <app-wss></app-wss>
 <app-footer></app-footer>

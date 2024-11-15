@@ -11,11 +11,13 @@ import { objImg } from '../../../../Core/Objs';
 })
 export class InfoComponent {
 
+  url:string="icons/info-section/"
+
   Icons: Array<objImg> = [
-    { url: 'icons/bank.png', name: 'bank' },
-    { url: 'icons/box.png', name: 'box' },
-    { url: 'icons/shield.png', name: 'shield' },
-    { url: 'icons/customer-support.png', name: 'customer-support' }
-  ];;
+    { url: this.url+'bank.webp', name: 'bank' },
+    { url: this.url+'box.webp', name: 'box' },
+    { url: this.url+'shield.webp', name: 'shield' },
+    { url: this.url+'customer-support.webp', name: 'customer-support' }
+  ];
 
 }

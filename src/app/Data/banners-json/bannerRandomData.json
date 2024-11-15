@@ -2,7 +2,7 @@
     {
         "title": "iPhone 12 - Innovación y Diseño",
         "text": "Explora el iPhone 12, con un diseño elegante, tecnología 5G y la potencia del chip A14 Bionic. Perfecto para aquellos que buscan rendimiento y estilo.",
-        "urlVideo" : "/videos/ip16_presentation.mp4"
+        "urlImg" : "/bannersAllPictures/all_colors_ip12.webp"
     },
     {
         "title": "iPhone 13 - Potencia y Eficiencia",
@@ -12,7 +12,7 @@
     {
         "title": "iPhone 14 - Tecnología de Última Generación",
         "text": "Descubre el iPhone 14, con tecnología innovadora, un rendimiento de cámara aún mejor y seguridad mejorada con Face ID.",
-        "urlImg": "/bannersAllPictures/ip14_purple_special.png"
+        "urlImg": "/bannersAllPictures/ip14_midnight_special.webp"
     },
     {
         "title": "iPhone 15 - Rendimiento sin Límites",

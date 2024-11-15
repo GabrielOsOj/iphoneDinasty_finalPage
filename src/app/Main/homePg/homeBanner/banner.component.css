@@ -101,17 +101,19 @@ div img {
   /* border: 1px solid red; */
 }
 
-
 /* Pantallas pequeñas */
 @media (max-width: 550px) {
 
   .header-banner {
     height: 85vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     /* border: 1px solid red; */
   }
 
   .img-carrousel {
-    width: 95vw;
+    width: 100vw;
     height: 100%;
   }
 
@@ -158,8 +160,6 @@ div img {
 }
 
 @media (max-width: 480px) {
-
-
 
   .banner-container-carrouselContainer {
     width: 60%;

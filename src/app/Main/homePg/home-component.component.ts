@@ -11,6 +11,7 @@ import { FaqComponent } from "./faqSection/faq/faq.component";
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
 import { BannerDataSvService } from '../../Services/bannerDataSv/banner-data-sv.service';
 import { bannerData } from '../../Core/banners-data';
+import { objVideo } from '../../Core/Objs';
 
 @Component({
   selector: 'app-home-component',
@@ -26,10 +27,11 @@ export class HomeComponentComponent {
   constructor(private bannerData :BannerDataSvService){
     //in this main, exists two banners
     this.bannersDataL = bannerData.fnGetManyRandomData(2);
-
   }
 
-  
+  videoT:objVideo={
+    url:"/videos/bannerVideo.mp4"
+  }
 
 
 }

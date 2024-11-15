@@ -29,15 +29,15 @@ export class BannerComponent {
 
   phones: Array<objImg> = [
   {
-    url: '/imgs_colores_iphone/ip15_pro_allColors.png',
+    url: '/bannersAllPictures/ip14_midnight_special.webp',
     name: 'iphone16',
     alt: 'iphone14'
   }, {
-    url: '/imgs_colores_iphone/all-colors-ip12.png',
+    url: '/bannersAllPictures/all_colors_ip12.webp',
     name: 'iphone15',
     alt: 'ipone12'
   },{
-    url: '/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_front.jpg',
+    url: '/bannersAllPictures/ip14_pro_gold_backSide.webp',
     name: 'iphone16',
     alt: 'ipone16ProMax'
   }
@@ -47,14 +47,12 @@ export class BannerComponent {
   counter: number = 0;
 
   constructor() {
+    this._applicationRef.isStable.pipe(first((isStable) => isStable))
+      .subscribe(() => {
 
-    // this._applicationRef.isStable.pipe(first((isStable) => isStable))
-    //   .subscribe(() => {
+        interval(1000).subscribe(() => {this.timerAdmin()})
 
-    //     interval(500).subscribe(() => {this.timerAdmin()})
-
-    //   });
-
+      });
   }
 
   timerAdmin() {

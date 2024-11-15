@@ -3,10 +3,23 @@
 [phoneData]="phoneData"
 (colorSelected)="fnColorSelector($event)">
 </app-img>
-<!-- <app-img-text></app-img-text> -->
+
+<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[0]}">
+<app-img-text [bannerDataToLoad]="bannerDescription.description"></app-img-text>
+</div>
+
+<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[1]}">
+<app-img-text [bannerDataToLoad]="bannerDescription.camara" [toRight]="true"></app-img-text>
+</div>
+
+<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[2]}">
+<app-img-text [bannerDataToLoad]="bannerDescription.screen"></app-img-text>
+</div>
+
+<app-video-full [bannerVi]="videoT"></app-video-full>
 <!-- banner texto -->
 <!-- banner video -->
 <app-tecnical-sheet></app-tecnical-sheet>
 
-<!-- formulario -->
-<footer></footer>
+<app-form></app-form>
+<app-footer></app-footer>

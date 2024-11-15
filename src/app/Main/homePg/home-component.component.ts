@@ -12,12 +12,13 @@ import { WssComponent } from "../shared/wssButton/wss/wss.component";
 import { BannerDataSvService } from '../../Services/bannerDataSv/banner-data-sv.service';
 import { bannerData } from '../../Core/banners-data';
 import { objVideo } from '../../Core/Objs';
+import { BannerViSvService } from '../../Services/bannerVideoSv/banner-vi-sv.service';
 
 @Component({
   selector: 'app-home-component',
   standalone: true,
   imports: [HeaderComponent,FooterComponent,SpacerComponent,BannerComponent,
-    ImgTextComponent,FamilyCarrouselComponent,InfoComponent,FaqComponent,WssComponent
+    ImgTextComponent,FamilyCarrouselComponent,InfoComponent,FaqComponent,WssComponent,VideoFullComponent
   ],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
@@ -29,16 +30,19 @@ import { objVideo } from '../../Core/Objs';
 export class HomeComponentComponent {
 
   bannersDataL:Array<bannerData>=[];
-  
-  constructor(private bannerData :BannerDataSvService){
+
+  videoT:objVideo=<objVideo>{
+    
+  }
+
+
+  constructor(private bannerData :BannerDataSvService, private videoBanner: BannerViSvService){
     //in this main, exists two banners
     this.bannersDataL[0]= bannerData.fnGetPhoneData(0);
     this.bannersDataL[1]= bannerData.fnGetPhoneData(2);
+    this.videoT = this.videoBanner.fnGetBannerViData()[0];
   }
 
-  videoT:objVideo={
-    url:"/videos/bannerVideo.mp4"
-  }
 
   goTo(name:string){
     let a = document.getElementById(name);

@@ -35,21 +35,21 @@
         "imagenColoresFamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#2A5BDE",
+                "imgColor": "#044d93",
                 "imgFront": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.webp",
                 "imgBack": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.webp",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.webp",
                 "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.webp"
             },
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "##faf2f1",
                 "imgFront": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_front.webp",
                 "imgBack": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_back.webp",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_camera.webp",
                 "imgSide": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_sideUp.webp"
             },
             {
-                "imgColor": "#1C1C1E",
+                "imgColor": "#17111a",
                 "imgFront": "iphonesAllPictures/ip12/ip12_negro/ip12_black_front.webp",
                 "imgBack": "iphonesAllPictures/ip12/ip12_negro/ip12_black_back.webp",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_negro/ip12_black_camera.webp",
@@ -115,7 +115,7 @@
         "imagenes": [
             {
 
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_camera.webp",
@@ -123,7 +123,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_superposition.webp"
             },
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_camera.webp",
@@ -131,7 +131,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_superposition.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_camera.webp",
@@ -139,7 +139,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_superposition.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_camera.webp",
@@ -184,7 +184,7 @@
         "imagenColoresFamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_camera.webp",
@@ -192,7 +192,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_superposition.webp"
             },
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_camera.webp",
@@ -200,7 +200,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_superposition.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_camera.webp",
@@ -208,7 +208,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_superposition.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_camera.webp",
@@ -254,7 +254,7 @@
         "imagenColoresFamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_camera.webp",
@@ -262,7 +262,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_special.webp"
             },
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_camera.webp",
@@ -270,7 +270,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_special.webp"
             },
             {
-                "imgColor": "#2C3E50",
+                "imgColor": "#101424",
                 "imgFront": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_camera.webp",
@@ -278,7 +278,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_special.webp"
             },
             {
-                "imgColor": "#FF0000",
+                "imgColor": "#e62b38",
                 "imgFront": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_camera.webp",
@@ -286,7 +286,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_special.webp"
             },
             {
-                "imgColor": "#FF69B4",
+                "imgColor": "#ffddd6",
                 "imgFront": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_camera.webp",
@@ -332,7 +332,7 @@
         "imagenColoresFamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_camera.webp",
@@ -340,7 +340,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_backSide.webp"
             },
             {
-                "imgColor": "#4B4B4B",
+                "imgColor": "#4c4a46",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_camera.webp",
@@ -348,7 +348,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_backSide.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_camera.webp",
@@ -356,7 +356,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_backSide.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_camera.webp",
@@ -402,7 +402,7 @@
         "imagenColoresFamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_camera.webp",
@@ -410,7 +410,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_backSide.webp"
             },
             {
-                "imgColor": "#4B4B4B",
+                "imgColor": "#4c4a46",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_camera.webp",
@@ -418,7 +418,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_backSide.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_camera.webp",
@@ -426,7 +426,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_backSide.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_camera.webp",
@@ -473,7 +473,7 @@
         "imagenes": [
             {
                    
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.webp",
                 "imgBack": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.webp",
                 "imgCamera": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.webp",
@@ -481,7 +481,7 @@
                 "imgSpecial": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.webp"
             },
             {
-                "imgColor": "#A020F0",
+                "imgColor": "#e9e3eb",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_camera.webp",
@@ -489,7 +489,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_special.webp"
             },
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_camera.webp",
@@ -497,7 +497,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_special.webp"
             },
             {
-                "imgColor": "#1C1C1C",
+                "imgColor": "#101424",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_camera.webp",
@@ -505,7 +505,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_special.webp"
             },
             {
-                "imgColor": "#FF0000",
+                "imgColor": "#e62b38",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_camera.webp",
@@ -551,7 +551,7 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.webp",
@@ -559,7 +559,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.webp"
             },
             {
-                "imgColor": "#A020F0",
+                "imgColor": "#e9e3eb",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_camera.webp",
@@ -567,7 +567,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_special.webp"
             },
             {
-                "imgColor": "#1F75FE",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_camera.webp",
@@ -575,7 +575,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_special.webp"
             },
             {
-                "imgColor": "#1C1C1C",
+                "imgColor": "#101424",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_camera.webp",
@@ -583,7 +583,7 @@
                 "imgSpecial": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_special.webp"
             },
             {
-                "imgColor": "#FF0000",
+                "imgColor": "#e62b38",
                 "imgFront": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_camera.webp",
@@ -630,28 +630,28 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_frontSide.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_frontSide.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_frontSide.webp"
             },
             {
-                "imgColor": "#8B00FF",
+                "imgColor": "#e9e3eb",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_backSide.webp",
@@ -697,28 +697,28 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_frontSide.webp"
             },
             {
-                "imgColor": "#C0C0C0",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_frontSide.webp"
             },
             {
-                "imgColor": "#FFD700",
+                "imgColor": "#ffecd2",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_backSide.webp",
                 "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_frontSide.webp"
             },
             {
-                "imgColor": "#8B00FF",
+                "imgColor": "#e9e3eb",
                 "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_front.webp",
                 "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_backSide.webp",
@@ -963,35 +963,35 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#8394e0",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_special.webp"
             },
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_special.webp"
             },
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_special.webp"
             },
             {
-                "imgColor": "#FFC0CB",
+                "imgColor": "#ffddd6",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_special.webp"
             },
             {
-                "imgColor": "#8ab3b3",
+                "imgColor": "#9fc6c4",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_screen.webp",
@@ -1029,35 +1029,35 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#8394e0",
+                "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_special.webp"
             },
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_special.webp"
             },
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_special.webp"
             },
             {
-                "imgColor": "#FFC0CB",
+                "imgColor": "#ffddd6",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_screen.webp",
                 "imgSide": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_special.webp"
             },
             {
-                "imgColor": "#8ab3b3",
+                "imgColor": "#9fc6c4",
                 "imgFront": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_screen.webp",
@@ -1095,7 +1095,7 @@
         "imagencoloresfamilia": " ",
         "imagenes": [
             {
-                "imgColor": "#FFFFFF",
+                "imgColor": "#ececec",
                 "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_screen.webp",
@@ -1116,7 +1116,7 @@
                 "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_special.webp"
             },
             {
-                "imgColor": "#000000",
+                "imgColor": "#17111a",
                 "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_front.webp",
                 "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_back.webp",
                 "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_screen.webp",

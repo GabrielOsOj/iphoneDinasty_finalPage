@@ -45,7 +45,7 @@ export class ProductComponent implements OnInit{
   ngOnInit(): void {
     this.phoneSelected = this.fnGetPhoneFromModel(this.data.getPhoneAndImgColorsData(), this.phoneId);
     this.fnLoadImgData();
-    this.bannerDescription = this.bannerData.fnGetPhoneBannerInfo();
+    this.bannerDescription = this.bannerData.fnGetPhoneBannerInfo(this.phoneSelected.modelo);
     this.loadImgs();
   }
 

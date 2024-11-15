@@ -14,12 +14,13 @@ import { objVideo } from '../../Core/Objs';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { BannerComponent } from "../homePg/homeBanner/banner.component";
 import { FormComponent } from "./formSection/form.component";
+import { RouterLink } from '@angular/router';
 
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [HeaderComponent, ImgComponent, TecnicalSheetComponent, ImgTextComponent, CommonModule, VideoFullComponent, FooterComponent, BannerComponent, FormComponent],
+  imports: [CommonModule,FormComponent,HeaderComponent,ImgTextComponent,HeaderComponent,FooterComponent,VideoFullComponent,TecnicalSheetComponent, ImgComponent],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })

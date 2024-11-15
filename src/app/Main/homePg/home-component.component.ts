@@ -16,10 +16,16 @@ import { objVideo } from '../../Core/Objs';
 @Component({
   selector: 'app-home-component',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, SpacerComponent, BannerComponent, ImgTextComponent, VideoFullComponent, FamilyCarrouselComponent, InfoComponent, FaqComponent, WssComponent],
+  imports: [HeaderComponent,FooterComponent,SpacerComponent,BannerComponent,
+    ImgTextComponent,FamilyCarrouselComponent,InfoComponent,FaqComponent,WssComponent
+  ],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })
+
+/*
+[VideoFullComponent]
+*/
 export class HomeComponentComponent {
 
   bannersDataL:Array<bannerData>=[];

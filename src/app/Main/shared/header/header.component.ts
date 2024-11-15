@@ -7,7 +7,7 @@ import { objImg } from '../../../Core/Objs';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule,RouterLink],
+  imports: [CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

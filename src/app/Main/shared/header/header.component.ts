@@ -14,7 +14,7 @@ import { objImg } from '../../../Core/Objs';
 
 export class HeaderComponent {
 
-  Icon: objImg = { url: 'icons/fake-logo.png', name: 'Dinastia Iphone' };
+  Icon: objImg = { url: '/icons/many-icons/logo_dinasty.webp', name: '' };
   goToEmitter = output<string>();
 
   isMenuOpen: boolean = false;

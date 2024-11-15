@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FaqSService } from '../../../../Services/faqSv/faq-s.service';
+import { FAQ } from '../../../../Core/faq';
 
 @Component({
   selector: 'app-faq',
@@ -8,5 +10,12 @@ import { Component } from '@angular/core';
   styleUrl: './faq.component.css'
 })
 export class FaqComponent {
+ 
+  faqData: Array<FAQ> = []
+
+  constructor(private faqSv : FaqSService) {
+    this.faqData = this.faqSv.fnGetFaqData()
+  }
+
 
 }

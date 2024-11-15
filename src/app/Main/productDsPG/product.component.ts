@@ -15,12 +15,13 @@ import { FooterComponent } from '../shared/footer/footer.component';
 import { BannerComponent } from "../homePg/homeBanner/banner.component";
 import { FormComponent } from "./formSection/form.component";
 import { RouterLink } from '@angular/router';
+import { WssComponent } from "../shared/wssButton/wss/wss.component";
 
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [CommonModule,FormComponent,HeaderComponent,ImgTextComponent,HeaderComponent,FooterComponent,VideoFullComponent,TecnicalSheetComponent, ImgComponent],
+  imports: [CommonModule, FormComponent, HeaderComponent, ImgTextComponent, HeaderComponent, FooterComponent, VideoFullComponent, TecnicalSheetComponent, ImgComponent, WssComponent],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })

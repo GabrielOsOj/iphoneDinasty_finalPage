@@ -7,6 +7,7 @@
 
       <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
       }'>
+
         <div class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
           [ngClass]="{'pressed':arButtons[i]}">
           iPhone {{12+i}}
@@ -17,6 +18,17 @@
     </div>
 
     <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">&#8250;</div>
+
+  </div>
+
+  <div class="families-mobile">
+
+    <select name="iphoneTwo" [(ngModel)]="optSet" (change)="fnOnChangue(optSet)" class="selectorBox">
+        @for (item of arButtons; track $index; let i = $index) {
+          <option>iPhone {{12+i}}</option>
+        }
+    </select>
+    
 
   </div>
 

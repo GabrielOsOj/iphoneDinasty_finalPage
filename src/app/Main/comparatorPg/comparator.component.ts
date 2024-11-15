@@ -46,50 +46,23 @@ export class ComparatorComponent {
 
     this.arrPhonesToCompare=[this.dataPhonesT[0],this.dataPhonesT[1],this.dataPhonesT[2]];
 
-
     this.userModelOne=this.arrPhonesToCompare[0].modelo;
     this.userModelTwo=this.arrPhonesToCompare[1].modelo;
     this.userModelThree=this.arrPhonesToCompare[2].modelo;
     
   }
 
-  emptyPhoneDetails:IphoneProduct={
-    "modelo": "",
-    "procesador": {
-      "tipo": "",
-      "cantidad_nucleos": 0,
-      "potencia": ""
-    },
-    "camara": {
-      "trasera": {
-        "resolucion": ""
-      },
-      "frontal": {
-        "resolucion": ""
-      }
-    },
-    "almacenamiento": [],
-    "pantalla": {
-      "medidas": ""
-    },
-    "otros": {
-      "resistente_agua_polvo": "",
-      "tipo_sim": [],
-      "nfc": false,
-      "pin_carga": "",
-      "viene_con_cargador": false
-    },
-    "imagenes": []
-  };
+  emptyPhoneDetails:IphoneProduct=<IphoneProduct>{};
 
   fnIsScreenSmall(){
-
     return (window.innerWidth<=1024)?true:false;
-
   }
 
   fnPhoneSelector(inputNum:number,phoneModel:string){
-    this.arrPhonesToCompare[inputNum]=this.searchInData(phoneModel)
+    console.log(this.searchInData(phoneModel).imagenColoresFamilia)
+    console.log(inputNum)
+    console.log("----------------")
+    this.arrPhonesToCompare[inputNum]=this.searchInData(phoneModel);
   }
 
   searchInData(phoneModel:string):IphoneProductColorImgs{

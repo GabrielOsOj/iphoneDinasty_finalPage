@@ -3,11 +3,12 @@ import { IphoneProductColorImgs } from '../../../../Core/iphone-product';
 import { StaticDataSvService } from '../../../../Services/static-data-sv.service';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from '../../../shared/cards/product-card/product-card.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-family-carrousel',
   standalone: true,
-  imports: [CommonModule, ProductCardComponent],
+  imports: [CommonModule, ProductCardComponent, FormsModule],
   templateUrl: './family-carrousel.component.html',
   styleUrl: './family-carrousel.component.css'
 })
@@ -29,7 +30,10 @@ export class FamilyCarrouselComponent implements OnInit {
   /* click style*/
   varLastBtnPressed:number=0;
   arButtons:Array<boolean>=[false,false,false,false,false]; 
-  
+
+  /* family carrousel */
+  optSet:string="";
+
   constructor(private data:StaticDataSvService){
     // this.phonesDetails=;
     this.phonesDetails=data.getPhoneAndImgColorsData();
@@ -38,9 +42,7 @@ export class FamilyCarrouselComponent implements OnInit {
   //retocar el tema de los botones de la familia y el filtro
 
   ngOnInit() {
-
     this.fnfiltro(12,0);
-
   }
 
   // fnReadScreenInfo(){
@@ -56,12 +58,9 @@ export class FamilyCarrouselComponent implements OnInit {
   }
 
   fnfiltro(selectedFamily:number, btnNum:number){
-
     this.phonesFamily=this.phonesDetails.filter((phone)=>{
-      
      return phone.family == selectedFamily;
     })
-
     this.arButtons.fill(false);
     this.arButtons[btnNum]=!this.arButtons[btnNum];
   }
@@ -79,10 +78,7 @@ export class FamilyCarrouselComponent implements OnInit {
     this.hover = value;
   }
 
-
   /* phones carrousel*/
-
-
   fnDespPhonCarroLeft(){
     this.phonesCarrouselPosition=this.phonesCarrouselPosition>=0?this.phonesCarrouselPosition:this.phonesCarrouselPosition+=this.objPhoneCardInfo.width; 
   }
@@ -91,6 +87,16 @@ export class FamilyCarrouselComponent implements OnInit {
     this.phonesCarrouselPosition=this.phonesCarrouselPosition<=
     (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-1)))
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
+  }
+
+  /*selector mobile*/
+
+  fnOnChangue(family:string){
+    this.fnfiltro(this.parser(family),0);
+  }
+
+  private parser(txt:string):number{
+    return Number(txt.split(" ")[1]);
   }
 
 }

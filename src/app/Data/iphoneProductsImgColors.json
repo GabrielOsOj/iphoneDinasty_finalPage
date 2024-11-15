@@ -32,7 +32,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip12.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -111,7 +111,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip12_pro.webp",
         "imagenes": [
             {
 
@@ -181,7 +181,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -469,7 +469,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                    
@@ -548,7 +548,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                 "imgColor": "#ececec",
@@ -627,7 +627,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                 "imgColor": "#17111a",
@@ -694,7 +694,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                 "imgColor": "#17111a",
@@ -760,7 +760,7 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip15.webp",
         "imagenes": []
     },
     {
@@ -797,7 +797,7 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": []
     },
     {
@@ -835,7 +835,7 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip15.webp",
         "imagenes": [
             {
                 "imgColor": "#607D8B",
@@ -901,7 +901,7 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                 "imgColor": "#607D8B",
@@ -960,7 +960,7 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip16.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -1026,7 +1026,7 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": " ",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -1092,7 +1092,7 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": "",
         "imagenes": [
             {
                 "imgColor": "#ececec",
@@ -1151,7 +1151,7 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagencoloresfamilia": " ",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip16_pro_proMax.webp",
         "imagenes": [
             {
                 "imgColor": "#FFFFFF",

@@ -10,7 +10,7 @@ import { Component, input, OnInit } from '@angular/core';
 export class ImgComponent implements OnInit{
 
 
-  colorsPhoneImagen = input.required<Array<string>>();
+  colorsPhoneImagen = input<string>();
   
   ngOnInit(): void {
     console.log(this.colorsPhoneImagen());

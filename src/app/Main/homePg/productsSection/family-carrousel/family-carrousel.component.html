@@ -19,18 +19,17 @@
 
     <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">&#8250;</div>
 
-  </div>
+ </div>
 
   <div class="families-mobile">
 
     <select [(ngModel)]="optSelectMobile" (change)="fnOnChangue(optSelectMobile)" class="selectorBox">
-     
-      <option *ngFor="let button of arButtons; let i = index" [value]="12 + i">
+
+      <option *ngFor="let num of arrFamiliesMobile; let i = index" [value]="num">
         iPhone {{12 + i}}
       </option>
 
     </select>
-
 
   </div>
 
@@ -41,8 +40,10 @@
 
     <div class="slider-box-container-phones">
       <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
+
         <app-product-card class="phone-card" *ngFor="let phone of phonesFamily" [phoneDetails]="phone"
-          (elementWidth)="fnGetElementWidth($event)">&#8250;</app-product-card>
+          (elementWidth)="fnGetElementWidth($event)">
+        </app-product-card>
 
       </div>
     </div>

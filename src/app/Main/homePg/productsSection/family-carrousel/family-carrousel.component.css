@@ -1,8 +1,6 @@
 .product-container {
   width: 100%;
-  /* height: 80vh; */
-  min-height: auto;
-  max-height: 600px;
+  height: 90vh;
 
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -10,11 +8,13 @@
   text-align: center;
 
   position: relative;
+
+  overflow: scroll;
 }
 
 .families {
   width: 100%;
-  height: auto;
+  height: 10vh;
   margin: 20px;
 
   display: flex;
@@ -24,6 +24,8 @@
   font-size: 1.5em;
 
   position: relative;
+
+  overflow: auto;
 }
 
 /* titles carrousel btns*/
@@ -41,7 +43,7 @@
 
 .title-carousel-container {
   width: 90%;
-  height: 5vh;
+  height: 10vh;
   overflow: hidden;
 
   position: relative;
@@ -49,12 +51,13 @@
 
 .slider-box-title {
   width: 100%;
-  min-height: auto;
-  max-height: 200px;
+  height: 10vh;
 
   display: flex;
   flex-direction: row;
   gap: 30px;
+
+  
 
   position: absolute;
 }
@@ -64,7 +67,7 @@
   position: relative;
 
   width: 300px;
-  max-height: auto;
+  height: 100%;
   border-radius: 4px;
 
   cursor: pointer;
@@ -82,13 +85,14 @@
 
 .normal-view {
   width: 100%;
-  height: 80%;
+  height: 70vh;
 
   display: flex;
   justify-content: center;
   gap: 20px;
 
   position: relative;
+  border: 1px solid black;
 }
 
 /*carrusel phones*/
@@ -96,9 +100,11 @@
 .slider-box-container-phones {
 
   width: 90%;
-  height: auto;
+  height: 100%;
 
   position: relative;
+
+  border: 1px solid yellow;
 
   overflow: hidden;
   white-space: nowrap;
@@ -115,15 +121,18 @@
 }
 
 .phones-slider-button {
+  width: 35px;
+  height: 35px;
+
   background-color: white;
   border: 1px solid #414040;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -150,8 +159,9 @@
 
 
 .phone-card {
-  width: 600px;
   height: 100%;
+  padding: 0;
+  border: 1px solid blue;
   white-space: nowrap;
 }
 
@@ -171,13 +181,6 @@
 
 @media (max-width: 1300px) {
 
-
-  .title-carousel-container {}
-
-
-  .slider-box-title {}
-
-
   .hover {
     visibility: initial;
   }
@@ -189,8 +192,8 @@
   }
 
   .phone-card {
-    width: 500px;
-    height: 90%;
+    /* width: 500px;
+    height: 90%; */
     white-space: nowrap;
   }
 

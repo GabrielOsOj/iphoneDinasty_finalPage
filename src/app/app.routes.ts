@@ -3,10 +3,7 @@ import { TestCMPComponent } from './Main/homePg/componentBk/test-cmp.component';
 import { FamilyCarrouselComponent } from './Main/homePg/productsSection/family-carrousel/family-carrousel.component';
 
 export const routes: Routes = [
-    {
-        path:'test',
-        component:FamilyCarrouselComponent
-    },
+ 
     {
         path: '', loadComponent: () => import('./Main/homePg/home-component.component').then(m => m.HomeComponentComponent)
     },
@@ -31,6 +28,10 @@ export const routes: Routes = [
         path:'',
         component:TestCMPComponent
 
-    } 
+    },
+       {
+        path:'test',
+        component:FamilyCarrouselComponent
+    },
         
 */

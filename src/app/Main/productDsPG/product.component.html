@@ -4,16 +4,16 @@
 (colorSelected)="fnColorSelector($event)">
 </app-img>
 
-<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[0]}">
+<div class="bn-1">
 <app-img-text [bannerDataToLoad]="bannerDescription.description"></app-img-text>
 </div>
 
-<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[1]}">
+<div class="bn-2" >
 <app-img-text [bannerDataToLoad]="bannerDescription.camara" [toRight]="true">
 </app-img-text>
 </div>
 
-<div [ngStyle]="{'backgroundColor':phoneData.phonoColorsAvalible[2]}">
+<div class="bn-3">
 <app-img-text [bannerDataToLoad]="bannerDescription.screen"></app-img-text>
 </div>
 

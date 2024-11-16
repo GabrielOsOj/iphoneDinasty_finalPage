@@ -60,9 +60,6 @@ export class ComparatorComponent {
   }
 
   fnPhoneSelector(inputNum:number,phoneModel:string){
-    console.log(this.searchInData(phoneModel).imagenColoresFamilia)
-    console.log(inputNum)
-    console.log("----------------")
     this.arrPhonesToCompare[inputNum]=this.searchInData(phoneModel);
   }
 

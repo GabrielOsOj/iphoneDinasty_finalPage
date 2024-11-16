@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-family-carrousel',
   standalone: true,
-  imports: [CommonModule, ProductCardComponent, FormsModule],
+  imports: [CommonModule, ProductCardComponent,FormsModule],
   templateUrl: './family-carrousel.component.html',
   styleUrl: './family-carrousel.component.css'
 })
@@ -32,26 +32,19 @@ export class FamilyCarrouselComponent implements OnInit {
   arButtons:Array<boolean>=[false,false,false,false,false]; 
 
   /* family carrousel */
-  optSet:string="";
+
+  optSelectMobile?:string;
 
   constructor(private data:StaticDataSvService){
-    // this.phonesDetails=;
     this.phonesDetails=data.getPhoneAndImgColorsData();
-  
+    
   }
   //retocar el tema de los botones de la familia y el filtro
 
   ngOnInit() {
     this.fnfiltro(12,0);
+    this.optSelectMobile=this.arButtons.toString();
   }
-
-  // fnReadScreenInfo(){
-  //   if(window.innerWidth>600){
-  //     this.objPhoneCardInfo.width=400;
-  //   }else if(window.innerWidth<=600){
-  //     this.objPhoneCardInfo.width=window.innerWidth;
-  //   }
-  // }
 
   fnGetElementWidth(width:number){
     this.objPhoneCardInfo.width=width;
@@ -89,14 +82,9 @@ export class FamilyCarrouselComponent implements OnInit {
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
   }
 
-  /*selector mobile*/
 
-  fnOnChangue(family:string){
-    this.fnfiltro(this.parser(family),0);
-  }
-
-  private parser(txt:string):number{
-    return Number(txt.split(" ")[1]);
+  fnOnChangue(a:any){
+    console.log(a)
   }
 
 }

@@ -23,12 +23,14 @@
 
   <div class="families-mobile">
 
-    <select name="iphoneTwo" [(ngModel)]="optSet" (change)="fnOnChangue(optSet)" class="selectorBox">
-        @for (item of arButtons; track $index; let i = $index) {
-          <option>iPhone {{12+i}}</option>
-        }
+    <select [(ngModel)]="optSelectMobile" (change)="fnOnChangue(optSelectMobile)" class="selectorBox">
+     
+      <option *ngFor="let button of arButtons; let i = index" [value]="12 + i">
+        iPhone {{12 + i}}
+      </option>
+
     </select>
-    
+
 
   </div>
 

@@ -31,19 +31,20 @@ export class FamilyCarrouselComponent implements OnInit {
   varLastBtnPressed:number=0;
   arButtons:Array<boolean>=[false,false,false,false,false]; 
 
-  /* family carrousel */
-
-  optSelectMobile?:string;
+  /* family carrousel mobile */
+  optSelectMobile:number;
+  arrFamiliesMobile:Array<number>=[];
 
   constructor(private data:StaticDataSvService){
+
     this.phonesDetails=data.getPhoneAndImgColorsData();
-    
+
+    this.arrFamiliesMobile = this.utDeleteRepeat(this.phonesDetails.map(m=>m.family));
+    this.optSelectMobile=this.arrFamiliesMobile[0];
   }
-  //retocar el tema de los botones de la familia y el filtro
 
   ngOnInit() {
     this.fnfiltro(12,0);
-    this.optSelectMobile=this.arButtons.toString();
   }
 
   fnGetElementWidth(width:number){
@@ -82,9 +83,12 @@ export class FamilyCarrouselComponent implements OnInit {
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
   }
 
+  fnOnChangue(a:number){
+    this.fnfiltro(a,0);
+  }
 
-  fnOnChangue(a:any){
-    console.log(a)
+  utDeleteRepeat(arr:Array<any>){
+    return [...new Set(arr)];
   }
 
 }

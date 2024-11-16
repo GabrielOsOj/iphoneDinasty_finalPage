@@ -2,7 +2,7 @@
 .product-card {
     background: #f7f7f7;
     width: 285px;
-    min-height: 400px;
+    height: 100%;
 
     display: flex;
     flex-direction: column;

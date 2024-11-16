@@ -1,0 +1,15 @@
+<section class="box">
+    <h3>test input zone</h3>
+
+    <div class="mini_box">
+
+        <select class="selectBox" [(ngModel)]="ttt" name="" id="">
+
+            <option 
+            *ngFor="let item of items; let i = index" [value]="item">{{ "iphone "+(12+i)}}</option>
+
+        </select>
+
+    </div>
+
+</section>

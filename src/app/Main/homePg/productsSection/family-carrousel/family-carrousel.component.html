@@ -1,25 +1,31 @@
 <div class="product-container">
   <!-- Títulos de familia -->
   <div class="families" (mouseenter)="fnHover(true)" (mouseleave)="fnHover(false)">
-    <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAder()">&#8249;</div>
+    <!-- <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAder()">
+
+      &#8249;
+
+    </div> -->
 
     <div class="title-carousel-container">
 
-      <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
-      }'>
+      <!-- <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
+      }'> -->
 
-        <div class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
+        <p class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
           [ngClass]="{'pressed':arButtons[i]}">
           iPhone {{12+i}}
-        </div>
+        </p>
 
-      </div>
+      <!-- </div> -->
 
     </div>
 
-    <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">&#8250;</div>
+    <!-- <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">
+      &#8250;
+    </div> -->
 
- </div>
+  </div>
 
   <div class="families-mobile">
 

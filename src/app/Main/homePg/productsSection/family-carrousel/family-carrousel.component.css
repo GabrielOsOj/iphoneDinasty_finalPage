@@ -200,7 +200,7 @@
   }
 
 }
-
+/* 
 @media(min-height:601px)and(max-width:770px){
 
   .title-carousel-container {
@@ -236,12 +236,12 @@
   }
 
 
-}
+} */
 
 @media (max-width: 600px) {
 
   .product-container {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     min-height: auto;
     max-height: 600px;

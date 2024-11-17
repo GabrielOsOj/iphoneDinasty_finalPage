@@ -293,14 +293,11 @@
     text-align: center;
   }
 
-  /* Ajuste para mostrar solo un título en el carrusel */
-  /* .title-carousel-container {
-      width: 80%; 
-    }
+ 
   
-    .title-carousel-item {
-      min-width: 100%; 
+    /* .title-carousel-item.pressed {
+      width: 100%; 
       text-align: center; 
-    } */
+    }  */
 
 }

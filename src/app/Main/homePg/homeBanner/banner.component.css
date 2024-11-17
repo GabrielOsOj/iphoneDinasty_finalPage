@@ -25,7 +25,7 @@
 .banner-subtitle {
   font-size: 1.8rem;
   color: #dcdcdc; /* Gris claro */
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 
@@ -45,6 +45,48 @@
 .banner-button:hover {
   background-color: #006bcc; 
 }
+
+/* @media (min-width: 1024px)and(max-width: 1366px){
+
+  .banner-title{
+    margin-bottom: 350px;
+  }
+} */
+
+
+/* iPad Pro 11" (Vertical) */
+@media (min-width: 834px) and (max-width: 1194px) {
+  .banner-title{
+    margin-bottom: 350px;
+  }
+}
+
+/* iPad Pro 11" (Horizontal) */
+@media (min-width: 1194px) and (max-width: 834px) {
+  .banner-title{
+    margin-bottom: 350px;
+  }
+}
+
+/* iPad Pro 12.9" (Vertical) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .banner-title{
+    margin-bottom: 350px;
+  }
+}
+
+/* iPad Pro 12.9" (Horizontal) */
+@media (min-width: 1366px) and (max-width: 1024px) {
+  .banner-title{
+    margin-bottom: 350px;
+  }
+}
+
+
+
+
+
+
 
 /* Responsividad */
 @media (max-width: 768px) {
@@ -76,5 +118,51 @@
   .banner-button {
     font-size: 1.3rem; /* Botón más compacto */
     padding: 6px 12px;
+  }
+}
+
+/* Móviles */
+@media (max-width: 480px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh; /* Ocupa toda la altura de la pantalla */
+    padding: 20px;
+
+    /* Fondo configurado con contain */
+    background: url("/banner_ip16_mediana.jpg") no-repeat center center;
+    background-size: cover; /* Ajusta la imagen al contenedor sin recortar */
+    
+  }
+
+  .banner-title {
+    font-size: 2rem; /* Ajuste del tamaño del título */
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  .banner-subtitle {
+    font-size: 1rem; /* Ajuste del tamaño del subtítulo */
+    color: #ffffff;
+    margin: 10px 0;
+  }
+
+  .banner-button {
+    background-color: #0084ff;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .banner-button:hover {
+    background-color: #006bcc;
   }
 }

@@ -109,14 +109,31 @@ p{
 
 
 /* Para pantallas medianas (tabletas) */
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
   .banner-vi {
     width: 90vw;
   }
 
   .banner-vi video {
-    max-height: 60vh;
-    /* Ajusta la altura para tabletas */
+    max-height: 70vh;
+  }
+
+  .banner-image {
+    width: 70vw;
+  }
+
+  .banner-image img {
+    max-height: 70vh;
+    
+  }
+
+  .banner-content.p{
+    width: 30vw;
+  }
+
+  .banner-content.p{
+    width: 30vw;
+    height: 40vh;
   }
 
   h2{
@@ -126,5 +143,75 @@ p{
   p{
     text-align: start;
 
+  }
+} 
+
+
+
+
+
+
+
+/* iPad Pro 11" (Vertical) */
+@media (min-width: 834px) and (max-width: 1194px) {
+  .banner-image {
+    width: 70vw;
+  }
+
+  .banner-image img {
+    max-height: 50vh;
+    
+  }
+
+  .banner-content.p{
+    width: 30vw;
+  }
+}
+
+/* iPad Pro 11" (Horizontal) */
+@media (min-width: 1194px) and (max-width: 834px) {
+  .banner-image {
+    width: 70vw;
+  }
+
+  .banner-image img {
+    max-height: 70vh;
+    
+  }
+
+  .banner-content.p{
+    width: 30vw;
+    height: 40vh;
+  }
+}
+
+/* iPad Pro 12.9" (Vertical) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .banner-image {
+    width: 70vw;
+  }
+
+  .banner-image img {
+    max-height: 70vh;
+  }
+
+  .banner-content.p{
+    width: 30vw;
+  }
+}
+
+/* iPad Pro 12.9" (Horizontal) */
+@media (min-width: 1366px) and (max-width: 1024px) {
+  .banner-image {
+    width: 70vw;
+  }
+
+  .banner-image img {
+    max-height: 70vh;
+    
+  }
+
+  .banner-content.p{
+    width: 30vw;
   }
 }

@@ -92,8 +92,8 @@
     width: 100%;
     margin: 20px 0;
     padding: 15px;
-    background-color: #fff;
-    color: #000;
+    background-color: #1d1d1f;
+    color: #fff;
     border: 1px solid #c2c1c1;
     border-radius: 5px;
     cursor: pointer;
@@ -101,8 +101,10 @@
   }
   
   .button-section button:hover {
-    background-color: #fff;
-    border-color: #000;
+    /* background-color: #fff;
+    border-color: #000; */
+    background-color: #15ec44;
+
   }
   
   .image-section img {

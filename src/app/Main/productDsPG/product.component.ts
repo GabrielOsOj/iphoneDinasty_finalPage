@@ -60,7 +60,7 @@ export class ProductComponent implements OnInit{
     this.phoneData.phonoColorsAvalible = this.fnGetColorsAvalible();
     this.phoneData.phoneImgColorsSetSelected = this.fnGetAllIdemColoredImgs(this.phoneData.phonoColorsAvalible[0]);
 
-    this.phoneColorObj = this.fnGetObjectColorImg(this.phoneData.phonoColorsAvalible[0]);
+    this.phoneColorObj = this.fnGetObjectColorImg(this.phoneData.phonoColorsAvalible[1]);
   }
 
   private fnGetColorsAvalible(): Array<string> {

@@ -28,10 +28,11 @@
   margin: 10px 0 20px 0;
 }
 
+
 /* Estilo del botón */
 .banner-button {
-  background-color: #0084ff; /* Azul */
-  color: #ffffff; /* Blanco */
+  background-color: #4424fc; 
+  color: #ffffff; 
   font-size: 1.2rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -42,7 +43,7 @@
 }
 
 .banner-button:hover {
-  background-color: #006bcc; /* Azul más oscuro */
+  background-color: #006bcc; 
 }
 
 /* Responsividad */

@@ -40,11 +40,11 @@ export class FamilyCarrouselComponent implements OnInit {
     this.phonesDetails=data.getPhoneAndImgColorsData();
 
     this.arrFamiliesMobile = this.utDeleteRepeat(this.phonesDetails.map(m=>m.family));
-    this.optSelectMobile=this.arrFamiliesMobile[0];
+    this.optSelectMobile=this.arrFamiliesMobile[4];
   }
 
   ngOnInit() {
-    this.fnfiltro(12,0);
+    this.fnfiltro(16,4);
   }
 
   fnGetElementWidth(width:number){

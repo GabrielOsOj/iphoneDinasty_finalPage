@@ -20,7 +20,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
     margin: 2px;
     width: auto;
 
@@ -38,7 +38,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fdfcfc;
     font-size: 1rem;
     padding: 8px 12px;
     transition: color 0.3s ease;
@@ -58,13 +58,13 @@ nav ul li a:hover {
     text-align: right;
     padding: 10px;
 
-    color: #000;
+    color: #ffffff;
 }
 
 .normal {
    
     visibility: initial;
-    background-color: white;
+    background-color: #1d1d1f;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,7 +98,7 @@ nav ul li a:hover {
 
         /* padding: 20px; */
         /* background-color: var(--light-fourty-color);  */
-        background-color: #fff;
+        background-color: #1d1d1f;
     }
 
     nav div {

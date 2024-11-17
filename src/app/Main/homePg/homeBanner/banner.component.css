@@ -1,170 +1,79 @@
 /* Estilos del banner */
-.header-banner {
-
-  width: 100%;
-  height: 90vh;
-  position: relative;
-
-  padding: 5% 0;
-
-  /* background-color: var(--light-secondary-color); */
-
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-
-}
-
-/* styles banner img*/
-
-.img-carrousel {
-  width: 100vw;
-  height: 100vh;
-  margin: 2% auto;
-
-}
-
-div video {
-  width: 100%;
-  height: 90vh;
-  object-fit: fill;
-
-}
-
-div img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-/*banner content*/
-.banner-container {
-  width: 75vw;
-  height: 85vh;
-
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  
-  z-index: 998;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1%;
-
-  overflow: hidden;
-}
-
-/*text banner*/
-.banner-container-textContainer {
-
-  width: 60%;
-  height: 80%;
-  /* border: 1px solid pink; */
-
+.banner {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.banner-container-textContainer {
+  justify-content: center;
   text-align: center;
-  padding: 20px;
-  font-family: Arial, sans-serif;
+  height: 100vh; /* Ocupa toda la pantalla */
+  padding: 20px; /* Espaciado interno para pantallas pequeñas */
+
+  /* Fondo desde la carpeta del proyecto */
+  background: url("/banner_ip16_mediana.jpg") no-repeat center center;
+  background-size: cover; /* Escala la imagen para cubrir todo el banner */
 }
 
-.banner-container-textContainer h1 {
-  font-size: 2.5em;
+/* Estilo del título */
+.banner-title {
+  font-size: 5.5rem; /* Tamaño grande por defecto */
   font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
+  color: #ffffff; /* Blanco */
+  margin-bottom: 250px;
 }
 
-.banner-container-textContainer p {
-  font-size: 1.5em;
-  color: #141435;
-  margin-bottom: 20px;
+/* Estilo del subtítulo */
+.banner-subtitle {
+  font-size: 1.8rem;
+  color: #dcdcdc; /* Gris claro */
+  margin: 10px 0 20px 0;
 }
 
-/*carrousel styles*/
-.banner-container-carrouselContainer {
-  width: 650px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-
-  filter: brightness(80%);
-  /* border: 1px solid red; */
+/* Estilo del botón */
+.banner-button {
+  background-color: #0084ff; /* Azul */
+  color: #ffffff; /* Blanco */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Pantallas pequeñas */
-@media (max-width: 550px) {
+.banner-button:hover {
+  background-color: #006bcc; /* Azul más oscuro */
+}
 
-  .header-banner {
-    height: 80vh;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid red; */
+/* Responsividad */
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 3rem; /* Reducir tamaño en tablets y pantallas medianas */
   }
 
-  .img-carrousel {
-    width: 100vw;
-    height: 100%;
+  .banner-subtitle {
+    font-size: 1.3rem; /* Reducir subtítulo */
   }
 
-  /*banner container*/
-  .banner-container {
-    width: 85vw;
-    height: 100vh;
-    flex-direction: column-reverse;
-    /* border: 1px solid red; */
-
+  .banner-button {
+    font-size: 1.3rem; /* Ajustar botón */
+    padding: 8px 16px; /* Reducir tamaño del botón */
   }
-
-  .banner-container h1 {
-    font-size: 2em;
-  }
-
-  .banner-container p {
-    font-size: 1.5em;
-  }
-
-  .banner-container-textContainer {
-    width: 100%;
-    height: 20%;
-  }
-
-  .banner-container-carrouselContainer {
-    width: 200px;
-    height: auto;
-  }
-
-  .phone {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .phone img {
-    object-fit: cover;
-  }
-
-  .banner-container-carrouselContainer .shadow {
-    display: none;
-  }
-
 }
 
 @media (max-width: 480px) {
+  
 
-  .banner-container-carrouselContainer {
-    width: 60%;
-    height: auto;
+  .banner-title {
+    font-size: 3rem; /* Reducir más el tamaño del título en móviles */
   }
 
+  .banner-subtitle {
+    font-size: 1.3rem; /* Reducir subtítulo aún más */
+  }
+
+  .banner-button {
+    font-size: 1.3rem; /* Botón más compacto */
+    padding: 6px 12px;
+  }
 }

@@ -9,10 +9,10 @@
     align-items: center;
     
     /* padding: 20px; */
-    border-radius: 8px;
+    border-radius: 10px;
 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* border: 1px solid red; */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    border: 0.8px solid rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
@@ -36,6 +36,7 @@ button {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 0.8rem;
 }
 
 h3{

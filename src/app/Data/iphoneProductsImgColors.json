@@ -762,38 +762,38 @@
         "imagenes": [
             {
                 "imgColor": "#FFD700",
-                "imgFront": "/iphonesAllPictures/ip15_yellow/ip15_yellow_front.webp",
-                "imgBack": "/iphonesAllPictures/ip15_yellow/ip15_yellow_back.webp",
-                "imgCamera": "/iphonesAllPictures/ip15_yellow/ip15_yellow_all_colors.webp",
-                "imgSide": "/iphonesAllPictures/ip15_yellow/ip15_yellow_three_colors.webp"
+                "imgFront": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yelow_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yelow_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yellow_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yellow_three_colors.webp"
             },
             {
                 "imgColor": "#87CEEB",
-                "imgFront": "/iphonesAllPictures/ip15_blue/ip15_blue_front.webp",
-                "imgBack": "/iphonesAllPictures/ip15_blue/ip15_blue_back.webp",
-                "imgCamera": "/iphonesAllPictures/ip15_blue/ip15_blue_all_colors.webp",
-                "imgSide": "/iphonesAllPictures/ip15_blue/ip15_blue_three_colors.webp"
+                "imgFront": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_three_colors.webp"
             },
             {
                 "imgColor": "#000000",
-                "imgFront": "/iphonesAllPictures/ip15_black/ip15_black_front.webp",
-                "imgBack": "/iphonesAllPictures/ip15_black/ip15_black_back.webp",
-                "imgCamera": "/iphonesAllPictures/ip15_black/ip15_black_all_colors.webp",
-                "imgSide": "/iphonesAllPictures/ip15_black/ip15_black_three_colors.webp"
+                "imgFront": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_three_colors.webp"
             },
             {
                 "imgColor": "#FFC0CB",
-                "imgFront": "/iphonesAllPictures/ip15_pink/ip15_pink_front.webp",
-                "imgBack": "/iphonesAllPictures/ip15_pink/ip15_pink_back.webp",
-                "imgCamera": "/iphonesAllPictures/ip15_pink/ip15_pink_all_colors.webp",
-                "imgSide": "/iphonesAllPictures/ip15_pink/ip15_pink_three_colors.webp"
+                "imgFront": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_three_colors.webp"
             },
             {
                 "imgColor": "#008000",
-                "imgFront": "/iphonesAllPictures/ip15_green/ip15_green_front.webp",
-                "imgBack": "/iphonesAllPictures/ip15_green/ip15_green_back.webp",
-                "imgCamera": "/iphonesAllPictures/ip15_green/ip15_green_all_colors.webp",
-                "imgSide": "/iphonesAllPictures/ip15_green/ip15_green_three_colors.webp"
+                "imgFront": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_three_colors.webp"
             }
         ]
     },

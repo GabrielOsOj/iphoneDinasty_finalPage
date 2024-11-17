@@ -161,6 +161,29 @@
     }
   },
   {
+    "model": "iPhone 14 Plus",
+    "description": {
+      "title": "Descripción",
+      "text": "El iPhone 14 Plus mantiene el diseño similar al 14, pero con una pantalla más grande y mejoras en la duración de la batería. También incluye el sistema de emergencias por satélite para situaciones críticas donde no hay cobertura celular.",
+      "urlImg": ""
+    },
+    "screen": {
+      "title": "Pantalla",
+      "text": "Pantalla OLED Super Retina XDR de 6.7 pulgadas, con soporte para HDR10 y Dolby Vision. El brillo máximo es de 1200 nits en HDR.",
+      "urlImg": ""
+    },
+    "batery": {
+      "title": "Batería",
+      "text": "Hasta 26 horas de reproducción de video, con optimizaciones que permiten una mayor duración de la batería. Carga rápida y carga inalámbrica MagSafe.",
+      "urlImg": ""
+    },
+    "camara": {
+      "title": "Cámara",
+      "text": "Sistema de cámara dual de 12 MP, mejorado con la tecnología Photonic Engine para ofrecer más detalle y menos ruido en condiciones de poca luz. Grabación en 4K Dolby Vision HDR.",
+      "urlImg": ""
+    }
+  },
+  {
     "model": "iPhone 14 Pro",
     "description": {
       "title": "Descripción",

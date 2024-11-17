@@ -13,7 +13,6 @@ export class AppComponent {
 
   //this fn will be called when the user clicks on the back button
   onActivate(event:Event){
-    console.log("a")
     window.scroll(0,0);
   }
 }

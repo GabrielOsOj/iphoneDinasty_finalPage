@@ -47,7 +47,12 @@ export class ProductComponent implements OnInit{
     this.phoneSelected = this.fnGetPhoneFromModel(this.data.getPhoneAndImgColorsData(), this.phoneId);
     this.fnLoadImgData();
     this.bannerDescription = this.bannerData.fnGetPhoneBannerInfo(this.phoneSelected.modelo);
+  
+    console.log(this.phoneData)
+  
+
     this.loadImgs();
+
   }
 
   fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: string) {

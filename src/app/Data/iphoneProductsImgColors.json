@@ -114,7 +114,6 @@
         "imagenColoresFamilia": "familyAllColors/all_colors_ip12_pro.webp",
         "imagenes": [
             {
-
                 "imgColor": "#044d93",
                 "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_front.webp",
                 "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_back.webp",
@@ -181,7 +180,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": "",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip12_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -251,7 +250,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip13_optimized.png",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -329,7 +328,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip13_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -399,7 +398,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip13_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -469,10 +468,9 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip14.webp",
         "imagenes": [
             {
-                   
                 "imgColor": "#ececec",
                 "imgFront": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.webp",
                 "imgBack": "iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.webp",
@@ -548,7 +546,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip14.webp",
         "imagenes": [
             {
                 "imgColor": "#ececec",
@@ -627,7 +625,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip14_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#17111a",
@@ -694,7 +692,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip14_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#17111a",
@@ -761,7 +759,43 @@
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "familyAllColors/all_colors_ip15.webp",
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip15_yellow/ip15_yellow_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15_yellow/ip15_yellow_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15_yellow/ip15_yellow_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15_yellow/ip15_yellow_three_colors.webp"
+            },
+            {
+                "imgColor": "#87CEEB",
+                "imgFront": "/iphonesAllPictures/ip15_blue/ip15_blue_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15_blue/ip15_blue_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15_blue/ip15_blue_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15_blue/ip15_blue_three_colors.webp"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip15_black/ip15_black_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15_black/ip15_black_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15_black/ip15_black_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15_black/ip15_black_three_colors.webp"
+            },
+            {
+                "imgColor": "#FFC0CB",
+                "imgFront": "/iphonesAllPictures/ip15_pink/ip15_pink_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15_pink/ip15_pink_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15_pink/ip15_pink_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15_pink/ip15_pink_three_colors.webp"
+            },
+            {
+                "imgColor": "#008000",
+                "imgFront": "/iphonesAllPictures/ip15_green/ip15_green_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15_green/ip15_green_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15_green/ip15_green_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15_green/ip15_green_three_colors.webp"
+            }
+        ]
     },
     {
         "family": 15,
@@ -797,8 +831,44 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
-        "imagenes": []
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip15.webp",
+        "imagenes": [
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yelow_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yelow_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yellow_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_amarillo/ip15_yellow_three_colors.webp"
+            },
+            {
+                "imgColor": "#87CEEB",
+                "imgFront": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_celeste/ip15_lightBlue_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_celeste/ip15_ligthBlue_three_colors.webp"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_negro/ip15_black_three_colors.webp"
+            },
+            {
+                "imgColor": "#FFC0CB",
+                "imgFront": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_rosa/ip15_pink_three_colors.webp"
+            },
+            {
+                "imgColor": "#008000",
+                "imgFront": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_front.webp",
+                "imgBack": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_back.webp",
+                "imgCamera": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_all_colors.webp",
+                "imgSide": "/iphonesAllPictures/ip15/ip15_verde/ip15_green_three_colors.webp"
+            }
+        ]
     },
     {
         "family": 15,
@@ -901,7 +971,7 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip15_pro.webp",
         "imagenes": [
             {
                 "imgColor": "#607D8B",
@@ -937,27 +1007,34 @@
         "family": 16,
         "modelo": "iPhone 16",
         "procesador": {
-            "tipo": "",
-            "cantidad_nucleos": 0,
-            "potencia": ""
+            "tipo": "A18",
+            "cantidad_nucleos": 6,
+            "potencia": "Alta"
         },
         "camara": {
             "trasera": {
-                "resolucion": ""
+                "resolucion": "48 MP (principal), 12 MP (ultra-ancha)"
             },
             "frontal": {
-                "resolucion": ""
+                "resolucion": "12 MP"
             }
         },
-        "almacenamiento": [],
+        "almacenamiento": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
         "pantalla": {
-            "medidas": ""
+            "medidas": "6.1 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "",
-            "tipo_sim": [],
-            "nfc": false,
-            "pin_carga": "",
+            "resistente_agua_polvo": "IP68",
+            "tipo_sim": [
+                "nano-SIM",
+                "eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Lightning",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "familyAllColors/all_colors_ip16.webp",
@@ -1003,30 +1080,37 @@
         "family": 16,
         "modelo": "iPhone 16 Plus",
         "procesador": {
-            "tipo": "",
-            "cantidad_nucleos": 0,
-            "potencia": ""
+            "tipo": "A18",
+            "cantidad_nucleos": 6,
+            "potencia": "Alta"
         },
         "camara": {
             "trasera": {
-                "resolucion": ""
+                "resolucion": "48 MP (principal), 12 MP (ultra-ancha)"
             },
             "frontal": {
-                "resolucion": ""
+                "resolucion": "12 MP"
             }
         },
-        "almacenamiento": [],
+        "almacenamiento": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
         "pantalla": {
-            "medidas": ""
+            "medidas": "6.7 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "",
-            "tipo_sim": [],
-            "nfc": false,
-            "pin_carga": "",
+            "resistente_agua_polvo": "IP68",
+            "tipo_sim": [
+                "nano-SIM",
+                "eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": " ",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip16.webp",
         "imagenes": [
             {
                 "imgColor": "#044d93",
@@ -1069,30 +1153,38 @@
         "family": 16,
         "modelo": "iPhone 16 Pro",
         "procesador": {
-            "tipo": "",
-            "cantidad_nucleos": 0,
-            "potencia": ""
+            "tipo": "A18 Pro",
+            "cantidad_nucleos": 6,
+            "potencia": "Muy Alta"
         },
         "camara": {
             "trasera": {
-                "resolucion": ""
+                "resolucion": "48 MP (principal), 12 MP (ultra-ancha), 12 MP (telefoto)"
             },
             "frontal": {
-                "resolucion": ""
+                "resolucion": "12 MP"
             }
         },
-        "almacenamiento": [],
+        "almacenamiento": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
         "pantalla": {
-            "medidas": ""
+            "medidas": "6.3 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "",
-            "tipo_sim": [],
-            "nfc": false,
-            "pin_carga": "",
+            "resistente_agua_polvo": "IP68",
+            "tipo_sim": [
+                "nano-SIM",
+                "eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": "",
+        "imagenColoresFamilia": "/familyAllColors/all_colors_ip16_pro_proMax.webp",
         "imagenes": [
             {
                 "imgColor": "#ececec",
@@ -1128,27 +1220,34 @@
         "family": 16,
         "modelo": "iPhone 16 Pro Max",
         "procesador": {
-            "tipo": "",
-            "cantidad_nucleos": 0,
-            "potencia": ""
+            "tipo": "A18 Pro",
+            "cantidad_nucleos": 6,
+            "potencia": "Muy Alta"
         },
         "camara": {
             "trasera": {
-                "resolucion": ""
+                "resolucion": "48 MP (principal), 12 MP (ultra-ancha), 12 MP (telefoto)"
             },
             "frontal": {
-                "resolucion": ""
+                "resolucion": "12 MP"
             }
         },
-        "almacenamiento": [],
+        "almacenamiento": [
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
         "pantalla": {
-            "medidas": ""
+            "medidas": "6.9 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "",
-            "tipo_sim": [],
-            "nfc": false,
-            "pin_carga": "",
+            "resistente_agua_polvo": "IP68",
+            "tipo_sim": [
+                "nano-SIM",
+                "eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Lightning",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "familyAllColors/all_colors_ip16_pro_proMax.webp",

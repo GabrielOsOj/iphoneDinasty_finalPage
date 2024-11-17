@@ -45,7 +45,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 12 Pro Max",
     "description": {
@@ -69,7 +68,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 13",
     "description": {
@@ -116,7 +114,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 13 Pro Max",
     "description": {
@@ -140,7 +137,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 14",
     "description": {
@@ -187,7 +183,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 14 Pro Max",
     "description": {
@@ -211,7 +206,6 @@
       "urlImg": ""
     }
   },
-
   {
     "model": "iPhone 15",
     "description": {
@@ -304,98 +298,95 @@
       "urlImg": ""
     }
   },
-
-
-
   {
     "model": "iPhone 16",
     "description": {
-      "title": "",
-      "text": "",
+      "title": "Descripción",
+      "text": "El iPhone 16 es un modelo equilibrado que combina un rendimiento excepcional con una cámara de alta calidad. Equipado con el chip A18 y una pantalla de 6.1 pulgadas, es ideal para usuarios que buscan un dispositivo potente y versátil.",
       "urlImg": ""
     },
     "screen": {
-      "title": "",
-      "text": "",
+      "title": "Pantalla",
+      "text": "Pantalla Super Retina XDR OLED de 6.1 pulgadas, con una resolución de 2556 x 1179 píxeles y una densidad de 460 ppi. Incluye tecnología HDR y True Tone.",
       "urlImg": ""
     },
     "batery": {
-      "title": "",
-      "text": "",
+      "title": "Batería",
+      "text": "Hasta 20 horas de reproducción de video, ofreciendo una duración adecuada para el uso diario.",
       "urlImg": ""
     },
     "camara": {
-      "title": "",
-      "text": "",
+      "title": "Cámara",
+      "text": "Sistema de cámara dual con un sensor principal de 48 MP y un ultra gran angular de 12 MP, mejorando la calidad fotográfica en diversas condiciones.",
       "urlImg": ""
     }
   },
   {
     "model": "iPhone 16 Plus",
     "description": {
-      "title": "",
-      "text": "",
+      "title": "Descripción",
+      "text": "El iPhone 16 Plus ofrece una experiencia multimedia superior gracias a su pantalla más grande y su potente chip A18. Ideal para quienes disfrutan del contenido visual y la fotografía.",
       "urlImg": ""
     },
     "screen": {
-      "title": "",
-      "text": "",
+      "title": "Pantalla",
+      "text": "Pantalla Super Retina XDR OLED de 6.7 pulgadas, con resolución de 2796 x 1290 píxeles y soporte para HDR10 y Dolby Vision, brindando colores vibrantes y detalles nítidos.",
       "urlImg": ""
     },
     "batery": {
-      "title": "",
-      "text": "",
+      "title": "Batería",
+      "text": "Hasta 26 horas de reproducción de video, proporcionando una duración excepcional para usuarios intensivos.",
       "urlImg": ""
     },
     "camara": {
-      "title": "",
-      "text": "",
+      "title": "Cámara",
+      "text": "Sistema de cámara dual con un sensor principal de 48 MP y un ultra gran angular de 12 MP, ofreciendo mejoras en el zoom y la calidad fotográfica.",
       "urlImg": ""
     }
   },
   {
     "model": "iPhone 16 Pro",
     "description": {
-      "title": "",
-      "text": "",
+      "title": "Descripción",
+      "text": "El iPhone 16 Pro es un dispositivo premium que combina un rendimiento excepcional con capacidades fotográficas avanzadas. Con el chip A18 Pro, es perfecto para profesionales y entusiastas.",
       "urlImg": ""
     },
     "screen": {
-      "title": "",
-      "text": "",
+      "title": "Pantalla",
+      "text": "Pantalla Super Retina XDR OLED de 6.3 pulgadas, con ProMotion y tasa de refresco adaptativa de hasta 120 Hz, mejorando la fluidez en el uso diario.",
       "urlImg": ""
     },
     "batery": {
-      "title": "",
-      "text": "",
+      "title": "Batería",
+      "text": "Hasta 23 horas de reproducción de video, asegurando que el rendimiento sea duradero durante todo el día.",
       "urlImg": ""
     },
     "camara": {
-      "title": "",
-      "text": "",
+      "title": "Cámara",
+      "text": "Sistema de cámara triple con un sensor principal de 48 MP, teleobjetivo y ultra gran angular, ofreciendo capacidades avanzadas en fotografía y video.",
       "urlImg": ""
     }
   },
   {
     "model": "iPhone 16 Pro Max",
     "description": {
-      "title": "",
-      "text": "",
+      "title": "Descripción",
+      "text": "El iPhone 16 Pro Max es el modelo más avanzado, ofreciendo lo último en tecnología móvil. Con el chip A18 Pro, es ideal para quienes buscan lo mejor en rendimiento y fotografía.",
       "urlImg": ""
     },
     "screen": {
-      "title": "",
-      "text": "",
+      "title": "Pantalla",
+      "text": "Pantalla Super Retina XDR OLED de 6.9 pulgadas, con ProMotion y tasa de refresco adaptativa de hasta 120 Hz. Brillo máximo de hasta 2000 nits en HDR.",
       "urlImg": ""
     },
     "batery": {
-      "title": "",
-      "text": "",
+      "title": "Batería",
+      "text": "Hasta 29 horas de reproducción de video, la mejor duración entre todos los modelos disponibles.",
       "urlImg": ""
     },
     "camara": {
-      "title": "",
-      "text": "",
+      "title": "Cámara",
+      "text": "Sistema de cámara triple con un sensor principal de 48 MP, teleobjetivo y ultra gran angular, mejorando significativamente la calidad fotográfica y las capacidades de zoom.",
       "urlImg": ""
     }
   }

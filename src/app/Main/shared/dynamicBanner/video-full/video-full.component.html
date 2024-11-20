@@ -1,5 +1,5 @@
-<div class="banner-container">
-  <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
+<div class="banner-container" >
+  <video autoplay [muted]="true" preload="auto" class="banner-video">
     <source [src]="bannerVi().url" type="video/mp4" />
   </video>
 </div>

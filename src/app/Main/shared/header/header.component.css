@@ -68,6 +68,11 @@ nav ul li a:hover {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.btn{
+    user-select: none;
+    cursor: pointer;
+}
+
 /* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
 

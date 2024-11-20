@@ -16,10 +16,13 @@ export class VideoFullComponent implements AfterViewInit {
 
   bannerVi=input.required<objVideo>();
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute) {
+
+    
+
+  }
+
   ngAfterViewInit(): void {
-    let a = document.getElementById('video') as HTMLVideoElement
-    if(a){a.play()}
     
   }
 

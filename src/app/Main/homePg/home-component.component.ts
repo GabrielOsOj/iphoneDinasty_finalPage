@@ -31,9 +31,7 @@ export class HomeComponentComponent {
 
   bannersDataL:Array<bannerData>=[];
 
-  videoT:objVideo=<objVideo>{
-    
-  }
+  videoT:objVideo=<objVideo>{}
 
 
   constructor(private bannerData :BannerDataSvService, private videoBanner: BannerViSvService){

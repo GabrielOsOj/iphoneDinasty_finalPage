@@ -12,11 +12,12 @@ import { StaticDataSvService } from '../../Services/static-data-sv.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
+import { BackTopComponent } from "../shared/back-top/back-top.component";
 
 @Component({
   selector: 'app-comparator',
   standalone: true,
-  imports: [OtrosComponent, AlmacenamientoComponent, PantallaComponent, CamarasComponent, ProcesadorComponent, ImgComponent, HeaderComponent, FooterComponent, CommonModule, FormsModule, WssComponent],
+  imports: [OtrosComponent, AlmacenamientoComponent, PantallaComponent, CamarasComponent, ProcesadorComponent, ImgComponent, HeaderComponent, FooterComponent, CommonModule, FormsModule, WssComponent, BackTopComponent],
   templateUrl: './comparator.component.html',
   styleUrl: './comparator.component.css'
 })

@@ -33,7 +33,7 @@
 .banner-button {
   background-color: #4424fc; 
   color: #ffffff; 
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
   border: none;
@@ -46,12 +46,6 @@
   background-color: #006bcc; 
 }
 
-/* @media (min-width: 1024px)and(max-width: 1366px){
-
-  .banner-title{
-    margin-bottom: 350px;
-  }
-} */
 
 
 /* iPad Pro 11" (Vertical) */
@@ -71,7 +65,15 @@
 /* iPad Pro 12.9" (Vertical) */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .banner-title{
-    margin-bottom: 350px;
+    margin-bottom: 250px;
+  }
+
+  .banner-subtitle{
+    margin-bottom: 10px;
+  }
+
+  .banner-button{
+    margin-bottom: 100px;
   }
 }
 
@@ -81,11 +83,6 @@
     margin-bottom: 350px;
   }
 }
-
-
-
-
-
 
 
 /* Responsividad */
@@ -133,36 +130,8 @@
     padding: 20px;
 
     /* Fondo configurado con contain */
-    background: url("/banner_ip16_mediana.jpg") no-repeat center center;
+    /* background: url("/banner_ip16_mediana.jpg") no-repeat center center; */
     background-size: cover; /* Ajusta la imagen al contenedor sin recortar */
     
-  }
-
-  .banner-title {
-    font-size: 2rem; /* Ajuste del tamaño del título */
-    color: #ffffff;
-    margin-top: 10px;
-  }
-
-  .banner-subtitle {
-    font-size: 1rem; /* Ajuste del tamaño del subtítulo */
-    color: #ffffff;
-    margin: 10px 0;
-  }
-
-  .banner-button {
-    background-color: #0084ff;
-    color: #ffffff;
-    font-size: 0.9rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .banner-button:hover {
-    background-color: #006bcc;
   }
 }

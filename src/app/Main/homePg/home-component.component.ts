@@ -13,13 +13,13 @@ import { BannerDataSvService } from '../../Services/bannerDataSv/banner-data-sv.
 import { bannerData } from '../../Core/banners-data';
 import { objVideo } from '../../Core/Objs';
 import { BannerViSvService } from '../../Services/bannerVideoSv/banner-vi-sv.service';
+import { BackTopComponent } from "../shared/back-top/back-top.component";
 
 @Component({
   selector: 'app-home-component',
   standalone: true,
-  imports: [HeaderComponent,FooterComponent,SpacerComponent,BannerComponent,
-    ImgTextComponent,FamilyCarrouselComponent,InfoComponent,FaqComponent,WssComponent,VideoFullComponent
-  ],
+  imports: [HeaderComponent, FooterComponent, SpacerComponent, BannerComponent,
+    ImgTextComponent, FamilyCarrouselComponent, InfoComponent, FaqComponent, WssComponent, VideoFullComponent, BackTopComponent],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })

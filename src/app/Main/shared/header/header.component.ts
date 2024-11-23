@@ -30,7 +30,6 @@ export class HeaderComponent {
   }
 
   goToEmit(to:string){
-    this.isMenuOpen=!this.isMenuOpen;
     this.goToEmitter.emit(to);
   }
 

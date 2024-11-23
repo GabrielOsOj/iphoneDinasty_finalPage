@@ -33,9 +33,9 @@
         </div>
 
         <ul id="nav-mobile-links">
-            <li><a (click)="goToEmit('start')" class="btn">Inicio</a></li>
-            <li><a (click)="goToEmit('info')" class="btn">Sobre nosotros</a></li>
-            <li><a (click)="goToEmit('allProducts')" class="btn">Nuestros productos</a></li>
+            <li><a (click)="goToEmit('start')" (click)="openMenu()" class="btn">Inicio</a></li>
+            <li><a (click)="goToEmit('info')" (click)="openMenu()" class="btn">Sobre nosotros</a></li>
+            <li><a (click)="goToEmit('allProducts')" (click)="openMenu()" class="btn">Nuestros productos</a></li>
             <li><a href="comparador" class="btn">Comparar</a></li>
         </ul>
     </nav>

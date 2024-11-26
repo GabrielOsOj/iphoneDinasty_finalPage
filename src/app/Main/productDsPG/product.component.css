@@ -3,17 +3,16 @@
 }
 
 .bn-1{
-    background-color: #ececec;
+    background: linear-gradient(90deg, rgba(64,86,241,1) 22%, rgba(59,48,222,1) 54%, rgba(21,34,152,1) 100%);
+    color: #ececec;
 }
 
 .bn-2{
-    background-color: #ffecd2;
+    background-color: #ececec;
 }
 
 .bn-3{
-    /* background-color: #f4acd5; */
-    /* background: linear-gradient(0deg, rgba(241,72,106,1) 0%, rgba(244,172,213,1) 100%); */
-    /* background: linear-gradient(0deg, rgba(233,102,143,1) 0%, rgba(247,192,223,0.9556197478991597) 98%); */
-    background: linear-gradient(0deg, rgba(247,192,223,0.9556197478991597) 0%, rgba(247,141,174,1) 98%);
-
+    background: radial-gradient(circle, rgba(59,48,222,1) 0%, rgb(6, 87, 180) 100%);
+    color: #ececec;
 }
+

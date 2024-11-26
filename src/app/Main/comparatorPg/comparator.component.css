@@ -9,6 +9,11 @@ section {
     align-items: center;
     flex-direction: column;
   }
+
+  .backButton{
+    width: 100%;
+    height: 50px;
+  }
   
   .titleBox {
     text-align: center;

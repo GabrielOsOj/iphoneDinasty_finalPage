@@ -31,7 +31,7 @@
 
     <select [(ngModel)]="optSelectMobile" (change)="fnOnChangue(optSelectMobile)" class="selectorBox">
 
-      <option *ngFor="let num of arrFamiliesMobile; let i = index" [value]="num">
+      <option class="selectorBox-opt" *ngFor="let num of arrFamiliesMobile; let i = index" [value]="num">
         iPhone {{12 + i}}
       </option>
 

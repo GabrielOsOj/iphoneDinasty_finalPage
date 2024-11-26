@@ -1,12 +1,13 @@
 import { ApplicationRef, ChangeDetectorRef, Component, inject } from '@angular/core';
 import { first, interval } from 'rxjs';
 import { objImg } from '../../../Core/Objs';
+import { Router, RouterLink } from '@angular/router';
 
 
 @Component({
   selector: 'app-banner',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './banner.component.html',
   styleUrl: './banner.component.css'
 })
@@ -46,7 +47,7 @@ export class BannerComponent {
   index: number = 0;
   counter: number = 0;
 
-  constructor() {
+  constructor(private route:Router) {
     this._applicationRef.isStable.pipe(first((isStable) => isStable))
       .subscribe(() => {
 
@@ -70,6 +71,11 @@ export class BannerComponent {
   }
   restartClock() {
     this.counter = 0;
+  }
+
+  goToIp16(){
+    console.log("algo")
+    this.route.navigate(['/','product','']);
   }
 
 }

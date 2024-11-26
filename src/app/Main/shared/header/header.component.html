@@ -12,10 +12,11 @@
 
         <nav>
             <ul id="nav-links-norm">
-                <li><a routerLink="/" class="btn">Inicio</a></li>
-                <li><a (click)="goToEmit('allProducts')" class="btn">Nuestros productos</a></li>
+                <li *ngIf="!isPageOnMain()"><a href="top" class="btn">Inicio</a></li>
+                <li *ngIf="isPageOnMain()"><a (click)="goToEmit('home')" class="btn">Inicio</a></li>
+                <li *ngIf="isPageOnMain()"><a (click)="goToEmit('allProducts')" class="btn">Nuestros productos</a></li>
+                <li *ngIf="isPageOnMain()"><a (click)="goToEmit('info')" class="btn">Nosotros</a></li>
                 <li><a href="comparador" class="btn">Comparar</a></li>
-                <li><a (click)="goToEmit('info')" class="btn">Nosotros</a></li>
             </ul>
         </nav>
     </div>
@@ -33,9 +34,10 @@
         </div>
 
         <ul id="nav-mobile-links">
-            <li><a (click)="goToEmit('start')" (click)="openMenu()" class="btn">Inicio</a></li>
-            <li><a (click)="goToEmit('info')" (click)="openMenu()" class="btn">Sobre nosotros</a></li>
-            <li><a (click)="goToEmit('allProducts')" (click)="openMenu()" class="btn">Nuestros productos</a></li>
+            <li *ngIf="!isPageOnMain()"><a href="" (click)="openMenu()" class="btn">Inicio</a></li>
+            <li *ngIf="isPageOnMain()"><a (click)="goToEmit('start')" (click)="openMenu()" class="btn">Inicio</a></li>
+            <li *ngIf="isPageOnMain()"><a (click)="goToEmit('info')" (click)="openMenu()" class="btn">Sobre nosotros</a></li>
+            <li *ngIf="isPageOnMain()"><a (click)="goToEmit('allProducts')" (click)="openMenu()" class="btn">Nuestros productos</a></li>
             <li><a href="comparador" class="btn">Comparar</a></li>
         </ul>
     </nav>

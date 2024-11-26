@@ -42,6 +42,11 @@
   transition: background-color 0.3s ease;
 }
 
+.banner-button > a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .banner-button:hover {
   background-color: #006bcc; 
 }

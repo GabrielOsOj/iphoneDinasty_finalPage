@@ -38,6 +38,8 @@ export class HomeComponentComponent {
     //in this main, exists two banners
     this.bannersDataL[0] = bannerData.fnGetPhoneData(0);
     this.bannersDataL[1] = bannerData.fnGetPhoneData(2);
+    this.bannersDataL[2] = bannerData.fnGetPhoneData(3);
+
     this.videoT = this.videoBanner.fnGetBannerViData()[0];
   }
 

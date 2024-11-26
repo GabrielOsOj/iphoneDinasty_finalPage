@@ -5,7 +5,6 @@ import { SpacerComponent } from '../shared/spacer/spacer.component';
 import { BannerComponent } from './homeBanner/banner.component';
 import { ImgTextComponent } from '../shared/dynamicBanner/img-text/img-text.component';
 import { VideoFullComponent } from '../shared/dynamicBanner/video-full/video-full.component';
-import { FamilyCarrouselComponent } from './productsSection/family-carrousel/family-carrousel.component';
 import { InfoComponent } from './infoSection/info/info.component';
 import { FaqComponent } from "./faqSection/faq/faq.component";
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
@@ -14,6 +13,7 @@ import { bannerData } from '../../Core/banners-data';
 import { objVideo } from '../../Core/Objs';
 import { BannerViSvService } from '../../Services/bannerVideoSv/banner-vi-sv.service';
 import { BackTopComponent } from "../shared/back-top/back-top.component";
+import { FamilyCarrouselComponent } from '../shared/productsSection/family-carrousel/family-carrousel.component';
 
 @Component({
   selector: 'app-home-component',
@@ -29,20 +29,20 @@ import { BackTopComponent } from "../shared/back-top/back-top.component";
 */
 export class HomeComponentComponent {
 
-  bannersDataL:Array<bannerData>=[];
+  bannersDataL: Array<bannerData> = [];
 
-  videoT:objVideo=<objVideo>{}
+  videoT: objVideo = <objVideo>{}
 
 
-  constructor(private bannerData :BannerDataSvService, private videoBanner: BannerViSvService){
+  constructor(private bannerData: BannerDataSvService, private videoBanner: BannerViSvService) {
     //in this main, exists two banners
-    this.bannersDataL[0]= bannerData.fnGetPhoneData(0);
-    this.bannersDataL[1]= bannerData.fnGetPhoneData(2);
+    this.bannersDataL[0] = bannerData.fnGetPhoneData(0);
+    this.bannersDataL[1] = bannerData.fnGetPhoneData(2);
     this.videoT = this.videoBanner.fnGetBannerViData()[0];
   }
 
 
-  goTo(name:string){
+  goTo(name: string) {
     let a = document.getElementById(name);
     a?.scrollIntoView();
   }

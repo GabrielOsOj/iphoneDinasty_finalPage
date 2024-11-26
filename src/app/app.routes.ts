@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { TestCMPComponent } from './Main/homePg/componentBk/test-cmp.component';
-import { FamilyCarrouselComponent } from './Main/homePg/productsSection/family-carrousel/family-carrousel.component';
 
 export const routes: Routes = [
  
@@ -13,6 +12,10 @@ export const routes: Routes = [
     },
     {
         path: 'product/:id', loadComponent: () => import('./Main/productDsPG/product.component').then(m => m.ProductComponent)
+    },
+    {
+        path: 'allProducts',
+        loadComponent: () => import('./Main/allProductsPg/product-pg.component').then(m => m.ProductPgComponent)
     },
     {
         path:"**",

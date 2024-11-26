@@ -17,12 +17,13 @@ import { FormComponent } from "./formSection/form.component";
 import { RouterLink } from '@angular/router';
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
 import { BackTopComponent } from "../shared/back-top/back-top.component";
+import { ToProductsButtonComponent } from '../shared/back-to-products/to-products-button.component';
 
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [CommonModule, FormComponent, HeaderComponent, ImgTextComponent, HeaderComponent, FooterComponent, VideoFullComponent, TecnicalSheetComponent, ImgComponent, WssComponent, BackTopComponent],
+  imports: [CommonModule, FormComponent, HeaderComponent, ImgTextComponent, HeaderComponent, FooterComponent, TecnicalSheetComponent, ImgComponent, WssComponent, BackTopComponent, ToProductsButtonComponent],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })

@@ -1,6 +1,9 @@
 <app-header></app-header>
-<app-back-top></app-back-top>
+<div class="backToProduct">
+    <app-to-products></app-to-products>
+</div>
 
+<app-back-top></app-back-top>
 <app-img
 [phoneData]="phoneData"
 (colorSelected)="fnColorSelector($event)">

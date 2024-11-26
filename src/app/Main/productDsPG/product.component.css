@@ -3,7 +3,8 @@
 }
 
 .bn-1{
-    background: linear-gradient(90deg, rgba(64,86,241,1) 22%, rgba(59,48,222,1) 54%, rgba(21,34,152,1) 100%);
+    background: rgb(1,79,134);
+background: linear-gradient(0deg, rgba(1,79,134,1) 8%, rgba(1,73,124,1) 27%, rgba(1,58,99,1) 42%, rgba(2,47,89,1) 65%, rgba(2,48,71,1) 100%);
     color: #ececec;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .bn-3{
-    background: radial-gradient(circle, rgba(59,48,222,1) 0%, rgb(6, 87, 180) 100%);
+    background: linear-gradient(0deg, rgba(2,48,71,1) 33%, rgba(2,47,89,1) 99%);
     color: #ececec;
 }
 

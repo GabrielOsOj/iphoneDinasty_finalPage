@@ -37,7 +37,6 @@ p {
 .banner-content p {
   font-size: 1.5em;
   line-height: 1.5;
-  color: #1b1b1b;
 }
 
 .banner-image img {
@@ -83,7 +82,6 @@ p {
 
   .banner-content p {
     font-size: 1.2em;
-    color: #020202;
     text-align: left;
   }
 
@@ -143,6 +141,8 @@ p {
 
   .banner-content h2 {
     font-size: 2em;
+    width: 100%;
+    text-align: center;
   }
 
   .banner-content p {

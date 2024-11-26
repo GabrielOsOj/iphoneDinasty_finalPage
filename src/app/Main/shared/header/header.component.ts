@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostListener, output } from '@angular/core';
+import { Component, HostListener, input, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { objImg } from '../../../Core/Objs';
 
@@ -19,6 +19,8 @@ export class HeaderComponent {
 
   isMenuOpen: boolean = false;
   isNotOnTopOfPage:boolean = false;
+  isPageOnMain = input<boolean>(false);
+
 
   @HostListener('window:scroll',["$event"])
   fnScrolled(){

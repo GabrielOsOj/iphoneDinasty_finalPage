@@ -279,12 +279,13 @@
 
     font-size: 1.5rem;
     background-color: #f0f0f0;
-    appearance: none;
+
     border-radius: 10%;
 
     margin-bottom: 5px;
 
     text-align: center;
+
   }
 
   .right,.left{

@@ -18,8 +18,6 @@ export class VideoFullComponent implements AfterViewInit {
 
   constructor(private route: ActivatedRoute) {
 
-    
-
   }
 
   ngAfterViewInit(): void {

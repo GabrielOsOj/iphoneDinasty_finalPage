@@ -1,76 +1,82 @@
 <section class="product-page">
-
-    <!-- Contenedor principal de la galería de imágenes -->
-    <div class="product-gallery">
-        <!-- Imagen principal -->
-        <div class="main-image">
-            <img [src]="mainImageUrl" alt="Imagen principal del producto" />
-        </div>
-
-        <!-- Carrusel de miniaturas -->
-        <div class="image-carousel">
-            <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
-            <div class="thumbnails-container">
-
-                @for(img of phoneData().phoneImgColorsSetSelected;
-                track $index;
-                let i = $index;
-                )
-                {
-                <div class="thumbnail" (click)="setMainImage($index)">
-                    <img [src]="img" [class.active]="i === selectedImageIndex">
-                </div>
-                }
-
-            </div>
-            <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
-        </div>
+  <!-- Contenedor principal de la galería de imágenes -->
+  <div class="product-gallery">
+    <!-- Imagen principal -->
+    <div class="main-image">
+      <img [src]="mainImageUrl" alt="Imagen principal del producto" />
     </div>
 
-    <!-- Información del producto (parte derecha) -->
-    <div class="product-details">
-        <h1>{{phoneData().phoneModel}}</h1>
-
-
-        <!-- Opciones de color -->
-        <div class="color-options env-gar">
-            <h3>Colores</h3>
-            <div class="color-circles">
-                @for(color of phoneData().phonoColorsAvalible; track $index){
-                <div class="color-circle" [ngStyle]="{'backgroundColor':color}" title="" (click)="fnSelectColor(color)"
-                    (click)="setMainImage(selectedImageIndex)"></div>
-                }
-            </div>
+    <!-- Carrusel de miniaturas -->
+    <div class="image-carousel">
+      <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
+      <div class="thumbnails-container">
+        @for(img of phoneData().phoneImgColorsSetSelected; track $index; let i =
+        $index; ) {
+        <div class="thumbnail" (click)="setMainImage($index)">
+          <img [src]="img" [class.active]="i === selectedImageIndex" />
         </div>
+        }
+      </div>
+      <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
+    </div>
+  </div>
 
-        <div class="button-section">
-            <div class="inst">
-                 <p>Contacta con nosotros para saber más sobre el producto y su disponibilidad</p>
-            <button>
-                <a href="https://www.instagram.com/dinastia.iphone?igsh=OTAwc3hucDgycmtt" target="_blank" style="text-decoration: none; color: inherit;">Consultar</a>
-            </button>
-            </div>
-           <div>
-            <p>Compara este y otros productos más!</p>
-            <button [routerLink]="['/comparador']">Comparar</button>
-           </div>
-            <div class="wss">
-                <p>Consultar para compra mayorista</p>
-            <button>
-                <a href="https://wa.me/5491125632013?text=Hola%2C%20quisiera%20recibir%20más%20información%20sobre%20la%20venta%20mayorista%20de%20iPhones." 
-                target="_blank" 
-                style="text-decoration: none; color: inherit;">
-                 Consultar
-             </a>
-             
-            </button>
-            </div>
-            
-        </div>
-        
+  <!-- Información del producto (parte derecha) -->
+  <div class="product-details">
+    <h1>{{ phoneData().phoneModel }}</h1>
 
-        <!-- Sección de Color y Memoria debajo del botón de compra -->
-         
+    <!-- Opciones de color -->
+    <div class="color-options env-gar">
+      <h3>Colores</h3>
+      <div class="color-circles">
+        @for(color of phoneData().phonoColorsAvalible; track $index){
+        <div
+          class="color-circle"
+          [ngStyle]="{ backgroundColor: color }"
+          title=""
+          (click)="fnSelectColor(color)"
+          (click)="setMainImage(selectedImageIndex)"
+        ></div>
+        }
+      </div>
     </div>
 
+    <div class="button-section">
+      <div class="inst">
+        <p>
+          Contacta con nosotros para saber más sobre el producto y su
+          disponibilidad
+        </p>
+        <button>
+          <a
+            href="https://www.instagram.com/dinastia.iphone?igsh=OTAwc3hucDgycmtt"
+            target="_blank"
+            style="text-decoration: none; color: inherit"
+            >Consultar</a
+          >
+        </button>
+      </div>
+
+      <div class="secondary-buttons">
+        <div class="comp">
+          <p>Compara este y otros productos más!</p>
+          <button [routerLink]="['/comparador']">Comparar</button>
+        </div>
+        <div class="wss">
+          <p>Consultar para compra mayorista</p>
+          <button>
+            <a
+              href="https://wa.me/5491125632013?text=Hola%2C%20quisiera%20recibir%20más%20información%20sobre%20la%20venta%20mayorista%20de%20iPhones."
+              target="_blank"
+              style="text-decoration: none; color: inherit"
+            >
+              Compra mayorista
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección de Color y Memoria debajo del botón de compra -->
+  </div>
 </section>

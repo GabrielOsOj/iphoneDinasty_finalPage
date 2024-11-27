@@ -13,7 +13,7 @@ import { objImg } from '../../../Core/Objs';
 export class FooterComponent {
 
   url:string = "icons/footer-section/";
-  
+  formUrl:string = "https://forms.gle/tQNz9kLjKPqpne529";
 
   Icons:Array<objImg> = [
     { url: this.url+'instagram.webp', name: 'instagram' },

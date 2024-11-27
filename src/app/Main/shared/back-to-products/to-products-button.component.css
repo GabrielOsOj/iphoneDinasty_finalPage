@@ -5,24 +5,32 @@ div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    border-bottom: .5px solid rgba(0,0,0,0.1);
+    border-radius: 10%;
+
 }
 
 button {
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     border: none;
 
-    padding: 5px 10px;
+    padding: 0px 10px;
     border-radius: 5px;
     background-color: #fff;
     cursor: pointer;
 }
 
 a {
-    color: #000;
-    text-decoration: none
+    color: #0c69f4;
+    text-decoration: none;
+
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-a:hover{
-    color: #023047;
+a:hover {
+    color: #3a5acf;
 }

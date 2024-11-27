@@ -20,6 +20,11 @@
   
   /* Responsive para pantallas pequeñas (teléfonos) */
   @media (max-width: 600px) {
+
+    .banner-container{
+      display: none;
+    }
+
     .banner-container {
       height: 50vh; /* Reduce la altura en teléfonos */
     }

@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 16px;
     left: 16px;
-    background-color: #007bff;
+    background-color: #007bffa6;
     color: white;
     border: none;
     border-radius: 50%;
@@ -21,6 +21,13 @@
     background-color: #0056b3;
   }
   
+  img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+
+    filter: brightness(10);
+  }
   @media (max-width: 768px) {
     .back-to-top {
       width: 40px;

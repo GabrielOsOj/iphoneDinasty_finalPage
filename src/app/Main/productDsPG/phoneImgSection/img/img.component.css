@@ -1,329 +1,402 @@
 .product-page {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-  }
-  
-  .product-gallery {
-    flex: 0.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    /* border-radius: 1px; */
-  }
-  
-  .main-image {
-    width: 100%;
-    text-align: center;
-
-  }
-  
-  .main-image img {
-    width: 90%;
-    max-height: 420px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .image-carousel {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    border: 3px;
-    border-radius: 10px;
-
-  }
-  
-  .thumbnail {
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .thumbnail img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .thumbnail:hover img {
-    border: 2px solid blue;
-  }
-  
-  /* Información del producto */
-  .product-details {
-    flex: 0.4;
-    padding: 20px;
-    /* background-color: #f9f9f9; */
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .product-details h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .product-details p {
-    margin: 5px 0;
-    color: #666;
-  }
-  
-  .env-gar {
-    min-height: 49px;
-    padding: 16px;
-    border-radius: 10px;
-    background: #f3f5fc;
-  }
-  
-  .env-gar p {
-    color: #1a1919;
-  }
-  
-  .button-section {
-    margin-top: 50px;
-  }
-  
-  
-  .button-section button {
-    display: block;
-    width: 100%;
-    margin: 20px 0;
-    padding: 15px;
-    background-color: #1d1d1f;
-    color: #fff;
-    border: 1px solid #c2c1c1;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all .1s linear;
-    font-size: 15px;
-  }
-  
-   .button-section button:hover {
-    border: 2px solid; 
-    border-color: #fff;
-    border-radius: 10px;
-
-  }
-   
-
-
-.inst button{
-  background: linear-gradient(90deg, rgba(64,86,241,1) 22%, rgba(59,48,222,1) 54%, rgba(21,34,152,1) 100%);
-  /* background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040, #FCAF45); */
-    color: #fff;
-    border: 1px solid #c2c1c1;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
+
+.product-gallery {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 1px; */
+}
+
+.main-image {
+  width: 100%;
+  text-align: center;
+
+}
+
+.main-image img {
+  width: 90%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px;
+  border-radius: 10px;
+
+}
+
+.thumbnail {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.thumbnail:hover img {
+  border: 2px solid blue;
+}
+
+/* Información del producto */
+.product-details {
+  flex: 0.4;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.env-gar {
+  min-height: 49px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f3f5fc;
+}
+
+.env-gar p {
+  color: #1a1919;
+}
+
+/* Contenedor general */
+.button-section {
+  display: flex;
+  flex-direction: column;
+  /* Los botones van en columna */
+  gap: 15px;
+  /* Espaciado entre el botón principal y los secundarios */
+}
+
+/* Botón principal "Consultar" */
+.inst button {
+  width: 100%;
+  /* Ocupa todo el ancho del contenedor */
+  background: linear-gradient(90deg, rgba(64, 86, 241, 1) 22%, rgba(59, 48, 222, 1) 54%, rgba(21, 34, 152, 1) 100%);
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  /* Ajuste para mayor usabilidad */
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.inst p {
+  color: #022f59;
+  font-weight: bold;
+  font-weight: 600;
+  /* Texto semi-negrita */
+
+}
+
+.inst button:hover {
+  background: linear-gradient(90deg, rgba(72, 96, 255, 1) 22%, rgba(67, 56, 252, 1) 54%, rgba(30, 43, 180, 1) 100%);
+  transform: scale(1.03);
+  /* Ligero efecto de agrandamiento */
+}
+
+/* Contenedor de botones secundarios */
+.secondary-buttons {
+  display: flex;
+  justify-content: space-between;
+  /* Botones en fila */
+  gap: 10px;
+  /* Espaciado entre botones */
+  flex-wrap: wrap;
+  /* Permite que los botones se acomoden si no hay espacio */
+}
+
+/* Botones secundarios */
+.secondary-buttons .comp,
+.secondary-buttons .wss {
+  flex: 1;
+  /* Ambos botones ocupan el mismo espacio */
+  max-width: 48%;
+  /* Evita que rompan el diseño */
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  /* Texto semi-negrita */
+  color: #1d1d1f;
+  border-radius: 8px;
+  /* Bordes redondeados */
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+.button-section button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #1d1d1f;
+  color: #fff;
+  border: 1px solid #c2c1c1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .1s linear;
+  font-size: 15px;
+}
+
+.button-section button:hover {
+  border: 2px solid;
+  border-color: #fff;
+  border-radius: 10px;
+
+}
+
 
 .wss button {
-    background-color: #0acf35;
-    color: #fff;
-    border: 1px solid #c2c1c1;
+  background-color: #0acf35;
+  color: #fff;
+  /* border: 1px solid #c2c1c1; */
 }
 
-  .image-section img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  /* Reset de márgenes y padding */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Contenedor principal de la galería del producto */
-  .product-gallery {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  /* Imagen principal */
-  .main-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 20px;
-  }
-  
-  /* Contenedor del carrusel de imágenes en miniatura */
-  .image-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  /* Botones de navegación del carrusel */
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal de la galería del producto */
+.product-gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Imagen principal */
+.main-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+/* Contenedor del carrusel de imágenes en miniatura */
+.image-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Botones de navegación del carrusel */
+.carousel-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.prev-btn {
+  left: -10px;
+}
+
+.next-btn {
+  right: -10px;
+}
+
+
+.carousel-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Contenedor de las miniaturas */
+.thumbnails-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Estilo de las miniaturas */
+.thumbnail {
+  margin: 0 5px;
+  flex-shrink: 0;
+}
+
+.thumbnail img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.thumbnail img.active {
+  border: 2px solid #007aff;
+}
+
+.thumbnail img:hover {
+  border: 2px solid #007aff;
+}
+
+/* Contenedor de las opciones de color y memoria */
+.product-options {
+  margin-top: 40px;
+}
+
+/* Estilo para las opciones de color */
+.color-options {
+  margin-bottom: 20px;
+}
+
+.color-options h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.color-circles {
+  display: flex;
+  gap: 20px;
+}
+
+/* Círculos de color */
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #d8d7d7;
+  cursor: pointer;
+  transition: border 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Efecto de selección */
+.color-circle.selected {
+  border: 2px solid #1c6df2;
+}
+
+/* Hover en círculos de color */
+.color-circle:hover {
+  border: 2px solid #1c6df2;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
   .carousel-btn {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    transition: background-color 0.3s ease;
+    width: 30px;
+    height: 30px;
   }
-  
+
   .prev-btn {
     left: -10px;
   }
-  
+
   .next-btn {
     right: -10px;
   }
-  
-  
-  .carousel-btn:hover {
-    background-color: #f1f1f1;
-  }
-  
-  /* Contenedor de las miniaturas */
-  .thumbnails-container {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  /* Estilo de las miniaturas */
-  .thumbnail {
-    margin: 0 5px;
-    flex-shrink: 0;
-  }
-  
+
   .thumbnail img {
     width: 70px;
     height: 70px;
-    object-fit: cover;
-    border: 2px solid transparent;
-    cursor: pointer;
-    transition: border 0.3s ease;
   }
-  
-  .thumbnail img.active {
-    border: 2px solid #007aff;
-  }
-  
-  .thumbnail img:hover {
-    border: 2px solid #007aff;
-  }
-  
-  /* Contenedor de las opciones de color y memoria */
-  .product-options {
-    margin-top: 40px;
-  }
-  
-  /* Estilo para las opciones de color */
-  .color-options {
-    margin-bottom: 20px;
-  }
-  
-  .color-options h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
+
   .color-circles {
+    width: 100%;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+
   }
-  
-  /* Círculos de color */
-  .color-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #d8d7d7;
-    cursor: pointer;
-    transition: border 0.3s ease;
-    display: flex;
+
+  .secondary-buttons {
     justify-content: center;
-    align-items: flex-start;
+    /* Centra los botones en pantalla pequeña */
+    gap: 5px;
+    /* Reduce el espacio entre los botones */
   }
-  
-  /* Efecto de selección */
-  .color-circle.selected {
-    border: 2px solid #1c6df2;
+
+  .secondary-buttons .comp,
+  .secondary-buttons .wss {
+    max-width: 48%;
+    /* Los botones siguen ocupando la mitad del contenedor */
+    flex: 0 0 48%;
+    /* Forzamos que mantengan su ancho relativo en pantallas pequeñas */
   }
-  
-  /* Hover en círculos de color */
-  .color-circle:hover {
-    border: 2px solid #1c6df2;
+}
+
+/* Estilos responsive */
+@media (max-width: 1128px) {
+  .product-page {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  /* Estilos responsive */
-  @media (max-width: 768px) {
-    .carousel-btn {
-      width: 30px;
-      height: 30px;
-    }
-  
-    .prev-btn {
-      left: -10px;
-    }
-  
-    .next-btn {
-      right: -10px;
-    }
-  
-    .thumbnail img {
-      width: 70px;
-      height: 70px;
-    }
-  
-    .color-circles {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-  
-    }
+
+  .product-gallery {
+    flex: none;
+    width: 100%;
   }
-  
-  /* Estilos responsive */
-  @media (max-width: 1128px) {
-    .product-page {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .product-gallery {
-      flex: none;
-      width: 100%;
-    }
-  
-    .main-image img {
-      width: 100%;
-    }
-  
-    .product-details {
-      flex: none;
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .button-section button {
-      font-size: 16px;
-    }
+
+  .main-image img {
+    width: 100%;
   }
+
+  .product-details {
+    flex: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .button-section button {
+    font-size: 16px;
+  }
+}

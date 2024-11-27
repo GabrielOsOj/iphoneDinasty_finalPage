@@ -2,6 +2,12 @@
     background-color: #f00;
 }
 
+.backToProduct{
+    width: 90%;
+    height: 25px;
+    margin: auto;
+}
+
 .bn-1{
     background: rgb(1,79,134);
 background: linear-gradient(0deg, rgba(1,79,134,1) 8%, rgba(1,73,124,1) 27%, rgba(1,58,99,1) 42%, rgba(2,47,89,1) 65%, rgba(2,48,71,1) 100%);

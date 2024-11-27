@@ -88,7 +88,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP + 12 MP + 12 MP"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -157,7 +157,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP + 12 MP + 12 MP"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -226,7 +226,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP Dual"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -304,7 +304,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP + 12 MP + 12 MP"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -374,7 +374,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP + 12 MP + 12 MP"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -444,7 +444,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP Dual"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -600,7 +600,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -667,7 +667,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -734,7 +734,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -807,7 +807,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -880,7 +880,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -947,7 +947,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP + 12 MP + 12 MP"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -1009,11 +1009,11 @@
         "procesador": {
             "tipo": "A18",
             "cantidad_nucleos": 6,
-            "potencia": "Alta"
+            "potencia": "3.70 GHz"
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP (principal), 12 MP (ultra-ancha)"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -1028,13 +1028,13 @@
             "medidas": "6.1 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "IP68",
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
             "tipo_sim": [
-                "nano-SIM",
+                "Nano-SIM",
                 "eSIM"
             ],
             "nfc": true,
-            "pin_carga": "Lightning",
+            "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "familyAllColors/all_colors_ip16.webp",
@@ -1082,11 +1082,11 @@
         "procesador": {
             "tipo": "A18",
             "cantidad_nucleos": 6,
-            "potencia": "Alta"
+            "potencia": "3.70 GHz"
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP (principal), 12 MP (ultra-ancha)"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -1101,13 +1101,13 @@
             "medidas": "6.7 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "IP68",
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
             "tipo_sim": [
-                "nano-SIM",
+                "Nano-SIM",
                 "eSIM"
             ],
             "nfc": true,
-            "pin_carga": "Lightning",
+            "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "/familyAllColors/all_colors_ip16.webp",
@@ -1155,11 +1155,11 @@
         "procesador": {
             "tipo": "A18 Pro",
             "cantidad_nucleos": 6,
-            "potencia": "Muy Alta"
+            "potencia": "3.70 GHz"
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP (principal), 12 MP (ultra-ancha), 12 MP (telefoto)"
+                "resolucion": "48 MP (principal) + 48 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -1175,13 +1175,13 @@
             "medidas": "6.3 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "IP68",
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
             "tipo_sim": [
-                "nano-SIM",
+                "Nano-SIM",
                 "eSIM"
             ],
             "nfc": true,
-            "pin_carga": "Lightning",
+            "pin_carga": "USB-C (con soporte para USB 3.0)",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "/familyAllColors/all_colors_ip16_pro_proMax.webp",
@@ -1222,11 +1222,11 @@
         "procesador": {
             "tipo": "A18 Pro",
             "cantidad_nucleos": 6,
-            "potencia": "Muy Alta"
+            "potencia": "3.70 GHz"
         },
         "camara": {
             "trasera": {
-                "resolucion": "48 MP (principal), 12 MP (ultra-ancha), 12 MP (telefoto)"
+                "resolucion": "48 MP (principal) + 12 MP (ultra gran angular) + 12 MP (telefoto)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -1241,13 +1241,13 @@
             "medidas": "6.9 pulgadas"
         },
         "otros": {
-            "resistente_agua_polvo": "IP68",
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
             "tipo_sim": [
-                "nano-SIM",
+                "Nano-SIM",
                 "eSIM"
             ],
             "nfc": true,
-            "pin_carga": "Lightning",
+            "pin_carga": "USB-C (con soporte para USB 3.0)",
             "viene_con_cargador": false
         },
         "imagenColoresFamilia": "familyAllColors/all_colors_ip16_pro_proMax.webp",

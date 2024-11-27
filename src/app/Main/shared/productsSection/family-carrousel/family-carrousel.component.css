@@ -1,6 +1,6 @@
 .product-container {
   width: 100%;
-  height: 40em;
+  height: 38em;
 
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -36,7 +36,6 @@
   user-select: none;
 
   /* visibility: hidden; */
-
 }
 
 .title-carousel-container {
@@ -48,7 +47,6 @@
   /* border: 1px solid red; */
 
   display: flex;
-  
 }
 
 .slider-box-title {
@@ -62,7 +60,6 @@
   /* border: 1px solid blue; */
   position: absolute;
 }
-
 
 .title-carousel-item {
   position: relative;
@@ -158,14 +155,12 @@
   left: 0%;
 }
 
-
 .phone-card {
   height: 100%;
   padding: 0;
   /* border: 1px solid blue; */
   white-space: nowrap;
 }
-
 
 .families-mobile {
   width: 20vw;
@@ -206,7 +201,6 @@
     height: 30em;
     white-space: nowrap;
   }
-
 
 }
 /* 

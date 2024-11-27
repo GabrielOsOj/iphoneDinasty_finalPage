@@ -1,29 +1,16 @@
 <div class="product-container">
   <!-- Títulos de familia -->
-  <div class="families" (mouseenter)="fnHover(true)" (mouseleave)="fnHover(false)">
-    <!-- <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAder()">
-
-      &#8249;
-
-    </div> -->
+  <div class="families">
 
     <div class="title-carousel-container">
 
-      <!-- <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
-      }'> -->
-
-        <p class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
-          [ngClass]="{'pressed':arButtons[i]}">
-          iPhone {{12+i}}
-        </p>
-
-      <!-- </div> -->
+      <p class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
+        [ngClass]="{'pressed':arButtons[i]}">
+        iPhone {{12+i}}
+      </p>
 
     </div>
 
-    <!-- <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">
-      &#8250;
-    </div> -->
 
   </div>
 
@@ -47,9 +34,12 @@
     <div class="slider-box-container-phones">
       <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
 
-        <app-product-card class="phone-card" *ngFor="let phone of phonesFamily" [phoneDetails]="phone"
-          (elementWidth)="fnGetElementWidth($event)">
+        @for (phone of phonesFamily; track $index; let i = $index) {
+
+        <app-product-card class="phone-card" [phoneDetails]="phone" (elementWidth)="fnGetElementWidth($event)"
+          [imgColorNum]="i">
         </app-product-card>
+        }
 
       </div>
     </div>

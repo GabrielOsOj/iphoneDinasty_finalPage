@@ -10,8 +10,10 @@ import { RouterLink } from '@angular/router';
   styleUrl: './product-card.component.css'
 })
 export class ProductCardComponent {
+
   phoneDetails= input.required<IphoneProductColorImgs>();
-  
+  imgColorNum = input.required<number>();
+
   constructor(private elem: ElementRef){}
 
   elementWidth = output<number>();
@@ -19,7 +21,7 @@ export class ProductCardComponent {
   
   ngOnInit(): void {
     this.elementWidth.emit(this.elem.nativeElement.offsetWidth);
-    this.randomNum = Math.floor(Math.random() * (this.phoneDetails().imagenes.length - 1));
+    // this.randomNum = Math.floor(Math.random() * (this.phoneDetails().imagenes.length - 1));
   }
   
 }

@@ -17,16 +17,11 @@ export class FamilyCarrouselComponent implements OnInit {
   titlesCarrouselPosition:number = 0;
   phonesCarrouselPosition:number = 0;
 
-  isMobileView:boolean = false;
-
   phonesDetails:Array<IphoneProductColorImgs>=[]
   phonesFamily: Array<IphoneProductColorImgs>=[]
 
   objPhoneCardInfo={"width":400};
   
-  /* bar menu */
-  hover:boolean = false;
-
   /* click style*/
   varLastBtnPressed:number=0;
   arButtons:Array<boolean>=[false,false,false,false,false]; 
@@ -59,19 +54,6 @@ export class FamilyCarrouselComponent implements OnInit {
     this.arButtons[btnNum]=!this.arButtons[btnNum];
   }
 
-  /* titles carrousel*/
-  fnDesplAder(){
-    this.titlesCarrouselPosition = this.titlesCarrouselPosition>=100? this.titlesCarrouselPosition:this.titlesCarrouselPosition+=100; 
-  }
-
-  fnDesplAizq(){
-    this.titlesCarrouselPosition=this.titlesCarrouselPosition<=(window.innerWidth-(300*4))?this.titlesCarrouselPosition:this.titlesCarrouselPosition-=100
-  }
-
-  fnHover(value:boolean){
-    this.hover = value;
-  }
-
   /* phones carrousel*/
   fnDespPhonCarroLeft(){
     this.phonesCarrouselPosition=this.phonesCarrouselPosition>=0?this.phonesCarrouselPosition:this.phonesCarrouselPosition+=this.objPhoneCardInfo.width; 
@@ -83,6 +65,7 @@ export class FamilyCarrouselComponent implements OnInit {
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
   }
 
+  /* carrusel family mobile */
   fnOnChangue(a:number){
     this.fnfiltro(a,0);
   }

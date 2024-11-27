@@ -46,7 +46,7 @@ export class HomeComponentComponent {
 
   goTo(name: string) {
     let a = document.getElementById(name);
-    a?.scrollIntoView();
+    a?.scrollIntoView({behavior:"smooth",block:"end"});
   }
 
 }

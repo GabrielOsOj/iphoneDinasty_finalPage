@@ -33,7 +33,7 @@ jobs:
     - name: Deploy to Donweb
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp://c2720874.ferozo.com # Cambia esto por el FTP de tu hosting
+        server: c2720874.ferozo.com # Cambia esto por el FTP de tu hosting
         username: ${{ secrets.DON_WEB_FTB_CLIENT }} # Define el usuario FTP en los secretos de GitHub
         password: ${{ secrets.DON_WEB_FTB_KEY }} # Define la contraseña FTP en los secretos de GitHub
         local-dir: dist/iphone-dinasty-final-page/browser/ # Ruta donde se encuentra la app construida

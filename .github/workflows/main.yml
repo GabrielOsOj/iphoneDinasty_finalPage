@@ -36,7 +36,7 @@ jobs:
         server: ftp://c2720874.ferozo.com # Cambia esto por el FTP de tu hosting
         username: ${{ secrets.DON_WEB_FTB_CLIENT }} # Define el usuario FTP en los secretos de GitHub
         password: ${{ secrets.DON_WEB_FTB_KEY }} # Define la contraseña FTP en los secretos de GitHub
-        local-dir: dist/iphone-dinasty-final-page # Ruta donde se encuentra la app construida
+        local-dir: dist/iphone-dinasty-final-page/browser # Ruta donde se encuentra la app construida
         server-dir: /public_html # Ruta del servidor en Donweb donde deseas subir los archivos
 
     # 6. Opcional: Limpiar archivos viejos del servidor (si aplica)

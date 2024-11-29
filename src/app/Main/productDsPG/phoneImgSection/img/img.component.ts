@@ -53,4 +53,9 @@ export class ImgComponent {
     }
   }
 
+  press(elementName:string){
+    let a = document.getElementById(elementName);
+    a?.click()
+  }
+
 }

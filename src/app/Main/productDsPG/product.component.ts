@@ -9,12 +9,9 @@ import { ImgTextComponent } from '../shared/dynamicBanner/img-text/img-text.comp
 import { bannerPhone } from '../../Core/banners-data';
 import { BannerPhoneSvService } from '../../Services/bannerPhoneSv/banner-phone-sv.service';
 import { CommonModule } from '@angular/common';
-import { VideoFullComponent } from '../shared/dynamicBanner/video-full/video-full.component';
 import { objVideo } from '../../Core/Objs';
 import { FooterComponent } from '../shared/footer/footer.component';
-import { BannerComponent } from "../homePg/homeBanner/banner.component";
 import { FormComponent } from "./formSection/form.component";
-import { RouterLink } from '@angular/router';
 import { WssComponent } from "../shared/wssButton/wss/wss.component";
 import { BackTopComponent } from "../shared/back-top/back-top.component";
 import { ToProductsButtonComponent } from '../shared/back-to-products/to-products-button.component';
@@ -44,17 +41,12 @@ export class ProductComponent implements OnInit{
 
   }
 
-
   ngOnInit(): void {
     this.phoneSelected = this.fnGetPhoneFromModel(this.data.getPhoneAndImgColorsData(), this.phoneId);
     this.fnLoadImgData();
     this.bannerDescription = this.bannerData.fnGetPhoneBannerInfo(this.phoneSelected.modelo);
   
-    console.log(this.phoneData)
-  
-
     this.loadImgs();
-
   }
 
   fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: string) {
@@ -95,6 +87,5 @@ export class ProductComponent implements OnInit{
   }
  
   videoT:objVideo = {'url':"videos/ip16_presentation.mp4"}
-
 
 }

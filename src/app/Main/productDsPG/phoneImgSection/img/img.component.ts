@@ -26,7 +26,6 @@ export class ImgComponent {
 
   ngOnInit(): void {
     this.mainImageUrl = this.phoneData().phoneImgColorsSetSelected[0];
-    console.log(this.mainImageUrl)
   }
 
   // Cambiar la imagen principal al hacer clic en una miniatura

@@ -30,7 +30,7 @@ import { FamilyCarrouselComponent } from '../shared/productsSection/family-carro
 export class HomeComponentComponent {
 
   bannersDataL: Array<bannerData> = [];
-
+  isMobile:boolean=false;
   videoT: objVideo = <objVideo>{}
 
 
@@ -41,12 +41,22 @@ export class HomeComponentComponent {
     this.bannersDataL[2] = bannerData.fnGetPhoneData(3);
 
     this.videoT = this.videoBanner.fnGetBannerViData()[0];
+    this.isMobile = window.innerWidth<600;
   }
 
 
   goTo(name: string) {
     let a = document.getElementById(name);
-    a?.scrollIntoView({behavior:"smooth",block:"end"});
+    if(!this.isMobile){
+
+      a?.scrollIntoView({behavior:"instant",block:"end"});
+
+    }else{
+      a?.scrollIntoView({behavior:"smooth",block:"end"});
+
+    }
+
+
   }
 
 }

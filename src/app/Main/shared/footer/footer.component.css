@@ -14,7 +14,7 @@
   
   .footer-column {
     flex: 1;
-    min-width: 200px;
+    min-width: 150px;
   }
 
   .footer-logo{
@@ -65,6 +65,13 @@
     transform: scale(1.1);
   }
   
+  .footer-column-iconAndCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Responsivo */
   @media (max-width: 768px) {
     .footer-container {

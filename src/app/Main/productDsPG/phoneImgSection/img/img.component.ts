@@ -1,7 +1,7 @@
 import { Component, input, output } from '@angular/core';
 import { phoneColorData } from '../../DTOs/phoneColorData';
 import { StaticDataSvService } from '../../../../Services/static-data-sv.service';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -18,6 +18,8 @@ export class ImgComponent {
 
   mainImageUrl: string = ""; // Imagen principal inicial
   selectedImageIndex: number = 0;
+
+  constructor(private router:Router){}
 
   //output fn
   fnSelectColor(color:string){

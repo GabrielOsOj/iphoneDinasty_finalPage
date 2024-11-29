@@ -20,7 +20,7 @@ import { ToProductsButtonComponent } from '../shared/back-to-products/to-product
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [CommonModule, FormComponent, HeaderComponent, ImgTextComponent, HeaderComponent, FooterComponent, TecnicalSheetComponent, ImgComponent, WssComponent, BackTopComponent, ToProductsButtonComponent],
+  imports: [CommonModule, HeaderComponent, ImgTextComponent, HeaderComponent, FooterComponent, TecnicalSheetComponent, ImgComponent, WssComponent, BackTopComponent, ToProductsButtonComponent],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })

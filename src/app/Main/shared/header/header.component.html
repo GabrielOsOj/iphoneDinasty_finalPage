@@ -28,12 +28,12 @@
 
         <div class="nav-mobile-icon" (click)="openMenu()">
 
-            <img src="icons/many-icons/upload.webp" alt="cross">
+            <img src="webIcons/many-icons/upload.webp" alt="cross">
 
         </div>
 
         <ul id="nav-mobile-links">
-            <li *ngIf="isPageOnMain()"><a (click)="goToEmit('start')" (click)="openMenu()" class="btn">Inicio</a></li>
+            <li *ngIf="isPageOnMain()"><a (click)="goToEmit('top')" (click)="openMenu()" class="btn">Inicio</a></li>
             <li *ngIf="isPageOnMain()"><a (click)="goToEmit('info')" (click)="openMenu()" class="btn">Sobre nosotros</a></li>
             <li *ngIf="isPageOnMain()"><a (click)="goToEmit('allProducts')" (click)="openMenu()" class="btn">Nuestros productos</a></li>
             <li><a href="comparador" class="btn">Comparar</a></li>

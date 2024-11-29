@@ -47,9 +47,10 @@ export class HomeComponentComponent {
 
   goTo(name: string) {
     let a = document.getElementById(name);
-    if(!this.isMobile){
+    console.log(this.isMobile);
+    if(this.isMobile){
 
-      a?.scrollIntoView({behavior:"instant",block:"end"});
+      a?.scrollIntoView({behavior:"instant",block:"start"});
 
     }else{
       a?.scrollIntoView({behavior:"smooth",block:"end"});

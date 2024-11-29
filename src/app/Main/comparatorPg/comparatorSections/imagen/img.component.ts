@@ -13,7 +13,7 @@ export class ImgComponent implements OnInit{
   colorsPhoneImagen = input<string>();
   
   ngOnInit(): void {
-    console.log(this.colorsPhoneImagen());
+   
   }
 
 }

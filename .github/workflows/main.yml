@@ -29,7 +29,16 @@ jobs:
     - name: Build Angular app
       run: npm run build --prod
 
-    # 5. Subir archivos al servidor Donweb mediante FTP
+    # 5. Creacion del .htaccess
+    - name: Create .htaccess file
+      run: |
+        echo "RewriteEngine On" > dist/.htaccess
+        echo "RewriteCond %{REQUEST_FILENAME} !-f" >> dist/.htaccess
+        echo "RewriteCond %{REQUEST_FILENAME} !-d" >> dist/.htaccess
+        echo "RewriteRule ^ index.html [L]" >> dist/.htaccess
+
+
+    # 6. Subir archivos al servidor Donweb mediante FTP
     - name: Deploy to Donweb
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
@@ -39,6 +48,6 @@ jobs:
         local-dir: dist/iphone-dinasty-final-page/browser/ # Ruta donde se encuentra la app construida
         server-dir: /public_html/ # Ruta del servidor en Donweb donde deseas subir los archivos
 
-    # 6. Opcional: Limpiar archivos viejos del servidor (si aplica)
+    # 7. Opcional: Limpiar archivos viejos del servidor (si aplica)
     - name: Clean up old files
       run: echo "Cleaning old files is managed by the FTP action"

@@ -12,7 +12,7 @@ import { objImg } from '../../../../Core/Objs';
 })
 export class WssComponent {
   
-  Icons:objImg = { url:'/icons/many-icons/logo_instagram.png', name: 'instagram'}
+  Icons:objImg = { url:'/webIcons/many-icons/logo_instagram.png', name: 'instagram'}
   igUrl:string = 'https://www.instagram.com/dinastia.iphone?igsh=OTAwc3hucDgycmtt';
   isStuck=false;
   almendra:number = 0;

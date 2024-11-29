@@ -12,10 +12,10 @@
 
         <nav>
             <ul id="nav-links-norm">
-                <li *ngIf="!isPageOnMain()"><a href="top" class="btn">Inicio</a></li>
+                <li *ngIf="!isPageOnMain()"><a [routerLink]="['']" class="btn">Inicio</a></li>
                 <li *ngIf="isPageOnMain()"><a (click)="goToEmit('allProducts')" class="btn">Nuestros productos</a></li>
                 <li *ngIf="isPageOnMain()"><a (click)="goToEmit('info')" class="btn">Nosotros</a></li>
-                <li><a href="comparador" class="btn">Comparar</a></li>
+                <li><a [routerLink]="['/comparador']" class="btn">Comparar</a></li>
             </ul>
         </nav>
     </div>

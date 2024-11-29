@@ -11,7 +11,7 @@ import { objImg } from '../../../../Core/Objs';
 })
 export class InfoComponent {
 
-  url:string="icons/info-section/"
+  url:string="webIcons/info-section/"
 
   Icons: Array<objImg> = [
     { url: this.url+'bank.webp', name: 'bank' },

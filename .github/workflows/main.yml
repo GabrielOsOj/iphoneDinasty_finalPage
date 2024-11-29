@@ -32,10 +32,10 @@ jobs:
     # 5. Creacion del .htaccess
     - name: Create .htaccess file
       run: |
-        echo "RewriteEngine On" > dist/.htaccess
-        echo "RewriteCond %{REQUEST_FILENAME} !-f" >> dist/.htaccess
-        echo "RewriteCond %{REQUEST_FILENAME} !-d" >> dist/.htaccess
-        echo "RewriteRule ^ index.html [L]" >> dist/.htaccess
+        echo "RewriteEngine On" > dist/iphone-dinasty-final-page/browser/.htaccess
+        echo "RewriteCond %{REQUEST_FILENAME} !-f" >> dist/iphone-dinasty-final-page/browser/.htaccess
+        echo "RewriteCond %{REQUEST_FILENAME} !-d" >> dist/iphone-dinasty-final-page/browser/.htaccess
+        echo "RewriteRule ^ index.html [L]" >> dist/iphone-dinasty-final-page/browser/.htaccess
 
 
     # 6. Subir archivos al servidor Donweb mediante FTP

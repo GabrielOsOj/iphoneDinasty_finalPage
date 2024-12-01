@@ -3,28 +3,36 @@
 <app-banner id="top"></app-banner>
 <app-spacer></app-spacer>
 
-
-<app-img-text [toRight]="false" 
+<div class="banStl">
+    <app-img-text [toRight]="false" 
 [bannerDataToLoad]="bannersDataL[0]"
 ></app-img-text>
-<!-- <app-spacer></app-spacer> -->
+</div>
+
+<app-spacer></app-spacer>
 <app-family-carrousel id="allProducts"></app-family-carrousel>
 <app-spacer></app-spacer>
 
-<app-img-text [toRight]="true" 
+<div class="banStl">
+    <app-img-text [toRight]="true" 
 [bannerDataToLoad]="bannersDataL[1]"
 ></app-img-text>
+</div>
+
 
 <app-back-top></app-back-top>
 
-<!-- <app-spacer></app-spacer> -->
+<app-spacer></app-spacer>
 <app-video-full [bannerVi]="videoT"></app-video-full>
+<app-spacer></app-spacer>
 <app-info id="info"></app-info>
+<app-spacer></app-spacer>
 
 <!-- <app-img-text [toRight]="false" 
 [bannerDataToLoad]="bannersDataL[2]"
 ></app-img-text> -->
 
+<app-spacer></app-spacer>
 <app-faq id="faq"></app-faq>
 <app-wss></app-wss>
 <app-footer></app-footer>

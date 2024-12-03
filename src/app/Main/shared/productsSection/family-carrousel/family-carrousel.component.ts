@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { IphoneProductColorImgs } from '../../../../Core/iphone-product';
 import { StaticDataSvService } from '../../../../Services/static-data-sv.service';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from '../../../shared/cards/product-card/product-card.component';
 import { FormsModule } from '@angular/forms';
+import { HammerGestureConfig, HammerModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-family-carrousel',
   standalone: true,
-  imports: [CommonModule, ProductCardComponent,FormsModule],
+  imports: [CommonModule, ProductCardComponent, FormsModule, HammerModule],
   templateUrl: './family-carrousel.component.html',
   styleUrl: './family-carrousel.component.css'
 })
@@ -29,6 +30,7 @@ export class FamilyCarrouselComponent implements OnInit {
   /* family carrousel mobile */
   optSelectMobile:number;
   arrFamiliesMobile:Array<number>=[];
+
 
   constructor(private data:StaticDataSvService){
 
@@ -74,4 +76,8 @@ export class FamilyCarrouselComponent implements OnInit {
     return [...new Set(arr)];
   }
 
+  /*swipe control*/ 
+  swipe(dir:string){
+    console.log(dir);
+  }
 }

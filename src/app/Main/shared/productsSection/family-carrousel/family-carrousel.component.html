@@ -11,7 +11,6 @@
 
     </div>
 
-
   </div>
 
   <div class="families-mobile">
@@ -31,7 +30,7 @@
 
     <div class="phones-slider-button left" (click)="fnDespPhonCarroLeft()">&#8249;</div>
 
-    <div class="slider-box-container-phones">
+    <div class="slider-box-container-phones" (swipeleft)="fnDespPhonCarroRight()" (swiperight)="fnDespPhonCarroLeft()">
       <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
 
         @for (phone of phonesFamily; track $index; let i = $index) {

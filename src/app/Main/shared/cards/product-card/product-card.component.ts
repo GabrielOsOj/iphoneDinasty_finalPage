@@ -1,11 +1,13 @@
 import { Component, ElementRef, input, output } from '@angular/core';
 import { IphoneProductColorImgs } from '../../../../Core/iphone-product';
 import { RouterLink } from '@angular/router';
+import { HammerGestureConfig, HammerModule } from '@angular/platform-browser';
+import 'hammerjs'
 
 @Component({
   selector: 'app-product-card',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,HammerModule],
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.css'
 })
@@ -23,5 +25,5 @@ export class ProductCardComponent {
     this.elementWidth.emit(this.elem.nativeElement.offsetWidth);
     // this.randomNum = Math.floor(Math.random() * (this.phoneDetails().imagenes.length - 1));
   }
-  
+ 
 }

@@ -1,9 +1,20 @@
 <section class="imagen-page">
 
-    <div class="img-container">
+    <div class="imgContainer">
 
-        <img [src]="colorsPhoneImagen()" alt="">
+        <img [src]="imgSelected" alt="">
 
     </div>
+
+    <div class="color-circles">
+
+        @for (color of colorParser(); track $index) {
+
+            <div class="color-circle" [ngStyle]="{'background-color': color}" (click)="changeColor(color)"></div>
+
+        }
+
+    </div>
+
 
 </section>

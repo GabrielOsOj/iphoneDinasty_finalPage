@@ -1,28 +1,128 @@
-.imagen-page{
-    width: 300px;
+.imagen-page {
+    width: auto;
     height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* border: 2px solid red; */
 }
 
-.img-container{
-    width: 100%;
-    height: 100%;
-    /* padding: 4px; */
+.imgContainer{
+    /* border: 1px solid red; */
+    width: 350px;
+    height: auto;
 }
 
-img{
+img {
+
     width: 100%;
-
-    height: 100%;
-    object-fit: contain;
-
+    height: auto;
     /* border: 1px solid black; */
+}
+
+.color-circles {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    gap: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Círculos de color */
+.color-circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+
+    border: 2px solid #d8d7d7;
+    cursor: pointer;
+}
+
+/* Efecto de selección */
+.color-circle.selected {
+    border: 2px solid #1c6df2;
 }
 
 @media (max-width:1024px) {
 
+    .imagen-page {
+        width: 15em;
+    }
+
+}
+
+@media (max-width:770px) {
+
     .imagen-page{
-        width: 100%;
+        width: 15em;
+        /* border: 1px solid red; */
+
+    }
+
+    .imgContainer{
+        width: 300px;
     }
     
+}
+
+@media (max-width:430px){
+
+    .imagen-page{
+        width:12em;
+        /* border: 1px solid red; */
+    }
+
+    .imgContainer{
+        width: 150px;
+    }
+
+    .color-circles{
+        gap: 4px;
+    }
+
+    .color-circle {
+        width: 1.8em;
+        height: 1.8em;
+    
+    }
+}
+
+@media (max-width:380px){
+    .imagen-page{
+        width:10em;
+    }
+
+    .color-circles{
+        gap: 2px;
+    }
+
+    .color-circle {
+        width: 1.5em;
+        height: 1.5em;
+    
+    }
+}
+
+@media (max-width:325px){
+    .imagen-page{
+        width:9em;
+        /* border: 1px solid red; */
+    }
+
+    .color-circles{
+        gap: 0;
+    }
+
+    .color-circle {
+        width: 1.5em;
+        height: 1.5em;
+    
+    }
+
 }

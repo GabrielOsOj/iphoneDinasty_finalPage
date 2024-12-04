@@ -1,38 +1,33 @@
-/* Estilos del banner */
+/* Estilo del primer banner */
 .banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh; /* Ocupa toda la pantalla */
-  padding: 20px; /* Espaciado interno para pantallas pequeñas */
-
-  /* Fondo desde la carpeta del proyecto */
+  height: 40em; /* Ocupa toda la sección */
+  padding: 20px;
   background: url("/banner_ip16_mediana.jpg") no-repeat center center;
-  background-size: cover; /* Escala la imagen para cubrir todo el banner */
+  background-size: 100%; /* Escala la imagen */
+  overflow: hidden; /* Previene que se salga de su sección */
 }
 
-/* Estilo del título */
 .banner-title {
-  font-size: 5.5rem; /* Tamaño grande por defecto */
+  font-size: 5.5rem;
   font-weight: bold;
-  color: #ffffff; /* Blanco */
+  color: #ffffff;
   margin-bottom: 250px;
 }
 
-/* Estilo del subtítulo */
 .banner-subtitle {
   font-size: 1.8rem;
-  color: #dcdcdc; /* Gris claro */
-  margin: 10px 0 10px 0;
+  color: #dcdcdc;
+  margin: 10px 0;
 }
 
-
-/* Estilo del botón */
 .banner-button {
-  background-color: #006bcc; 
-  color: #ffffff; 
+  background-color: #006bcc;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -42,101 +37,130 @@
   transition: background-color 0.3s ease;
 }
 
-.banner-button > a{
+.banner-button a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.banner-button:hover {
-  background-color: #006bcc; 
-}
-
-
 
 /* iPad Pro 11" (Vertical) */
 @media (min-width: 834px) and (max-width: 1194px) {
-  .banner-title{
-    margin-bottom: 350px;
+  .banner-title {
+    margin-bottom: 250px;
   }
+ 
 }
 
 /* iPad Pro 11" (Horizontal) */
 @media (min-width: 1194px) and (max-width: 834px) {
-  .banner-title{
-    margin-bottom: 350px;
-  }
-}
-
-/* iPad Pro 12.9" (Vertical) */
-@media (min-width: 1024px) and (max-width: 1366px) {
-  .banner-title{
+  .banner-title {
     margin-bottom: 250px;
   }
 
-  .banner-subtitle{
-    margin-bottom: 10px;
-  }
+  .banner{
+    margin-top: 1px;
 
-  .banner-button{
-    margin-bottom: 100px;
-  }
-}
-
-/* iPad Pro 12.9" (Horizontal) */
-@media (min-width: 1366px) and (max-width: 1024px) {
-  .banner-title{
-    margin-bottom: 350px;
   }
 }
 
 
-/* Responsividad */
+/* Responsividad del segundo banner */
 @media (max-width: 768px) {
   .banner-title {
-    font-size: 3rem; /* Reducir tamaño en tablets y pantallas medianas */
+    font-size: 3rem;
   }
-
   .banner-subtitle {
-    font-size: 1.3rem; /* Reducir subtítulo */
+    font-size: 1.3rem;
+  }
+  .banner-button {
+    font-size: 1.3rem;
+    padding: 8px 16px;
   }
 
-  .banner-button {
-    font-size: 1.3rem; /* Ajustar botón */
-    padding: 8px 16px; /* Reducir tamaño del botón */
-  }
 }
 
 @media (max-width: 480px) {
-  
+  .banner {
+    height: 38em;
+    background-size: cover;
+  }
 
   .banner-title {
-    font-size: 3rem; /* Reducir más el tamaño del título en móviles */
+    font-size: 3rem;
   }
 
   .banner-subtitle {
-    font-size: 1.3rem; /* Reducir subtítulo aún más */
+    font-size: 1.3rem;
   }
 
   .banner-button {
-    font-size: 1.3rem; /* Botón más compacto */
+    font-size: 0.8rem;
     padding: 6px 12px;
   }
 }
 
-/* Móviles */
-@media (max-width: 480px) {
-  .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 70vh; /* Ocupa toda la altura de la pantalla */
-    padding: 20px;
 
-    /* Fondo configurado con contain */
-    /* background: url("/banner_ip16_mediana.jpg") no-repeat center center; */
-    background-size: cover; /* Ajusta la imagen al contenedor sin recortar */
-    
+/* segundo banner */
+
+.fondo{
+  background-color: #000000;
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 35em; /* Ocupa toda la sección */
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: url("/Dynamic_island_banner_ip14.webp")no-repeat center center;
+  background-size: 35%; /* Escala la imagen al 150% para hacerla más pequeña */
+  overflow: hidden; /* Previene desbordamientos */
+
+  opacity: 0; /* Oculto por defecto */
+  transform: translateY(50px); /* Desplazado hacia abajo */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave */
+}
+
+/* Estilo del título */
+.banner-titlee {
+  font-size: 5.5rem;
+  /* Tamaño grande por defecto */
+  font-weight: bold;
+  color: #ffffff;
+  /* Blanco */
+  margin-top: 20px;
+  margin-bottom: 450px;
+}
+
+
+.banners.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+@media (max-width: 480px) {
+  .banners {
+    background: url("/Dynamic_island_banner_ip14.webp") no-repeat center center  ;
+    background-size: 90%;
+    /* Escala la imagen para cubrir todo el banner */
+    height: 38em;
+    /* Ocupa toda la pantalla */
+    background-color: #020202;
   }
+
+  .banner-titlee {
+    font-size: 2.5rem;
+    /* Tamaño grande por defecto */
+    font-weight: bold;
+    color: #ffffff;
+    /* Blanco */
+    margin-bottom: 370px;
+  }
+
 }

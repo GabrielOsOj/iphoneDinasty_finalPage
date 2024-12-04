@@ -1,15 +1,12 @@
 <app-header [isPageOnMain]="true" (goToEmitter)="goTo($event)"></app-header>
 
-<app-banner id="top"></app-banner>
+
+<app-banner id="top" [toRight]="true"></app-banner>
+<app-spacer></app-spacer>
+<app-banner  [toRight]="false"></app-banner>
 <app-spacer></app-spacer>
 
-<div class="banStl">
-    <app-img-text [toRight]="false" 
-[bannerDataToLoad]="bannersDataL[0]"
-></app-img-text>
-</div>
 
-<app-spacer></app-spacer>
 <app-family-carrousel id="allProducts"></app-family-carrousel>
 <app-spacer></app-spacer>
 

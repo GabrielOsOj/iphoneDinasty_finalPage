@@ -1,5 +1,22 @@
-<div class="banner">
+<div class="banner" *ngIf="toRight()">
   <h1 class="banner-title">iPhone 16</h1>
   <p class="banner-subtitle">Consulta la disponibilidad del nuevo IPhone 16</p>
-  <button class="banner-button" [routerLink]="['/product','iPhone 16']"><a >Más información</a> </button>
+  <button class="banner-button" [routerLink]="['/product', 'iPhone 16']">
+    <a>Más información</a>
+  </button>
 </div>
+
+
+
+<!-- segundo banner -->
+<div class="fondo">
+  <div class="banners" [class.visible]="showSection" *ngIf="!toRight()"  >
+  <h1 class="banner-titlee">Dinastia iPhone</h1>
+  <!-- <button class="banner-button" [routerLink]="['/product','iPhone 16']"><a >Más información</a> </button> -->
+</div>
+</div>
+
+
+
+<!-- tercer banner -->
+

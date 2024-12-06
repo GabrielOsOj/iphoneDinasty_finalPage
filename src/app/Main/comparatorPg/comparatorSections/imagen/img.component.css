@@ -89,7 +89,8 @@ img {
     .color-circle {
         width: 1.8em;
         height: 1.8em;
-    
+        gap: 20px;
+        margin-top: 10px;
     }
 }
 

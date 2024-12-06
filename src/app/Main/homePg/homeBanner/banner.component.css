@@ -10,6 +10,7 @@
   background: url("/banner_ip16_mediana.jpg") no-repeat center center;
   background-size: 100%; /* Escala la imagen */
   overflow: hidden; /* Previene que se salga de su sección */
+  cursor: pointer;
 }
 
 .banner-title {
@@ -35,6 +36,7 @@
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-bottom: 50px;
 }
 
 .banner-button a {
@@ -73,7 +75,7 @@
     font-size: 1.3rem;
   }
   .banner-button {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 8px 16px;
   }
 
@@ -104,6 +106,7 @@
 
 .fondo{
   background-color: #000000;
+  overflow: hidden;
 }
 
 .banners {

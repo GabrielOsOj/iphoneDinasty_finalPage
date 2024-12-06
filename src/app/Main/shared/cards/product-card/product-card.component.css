@@ -13,6 +13,7 @@
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    cursor: pointer;
 }
 
 .product-card img {
@@ -78,16 +79,32 @@ a{
     .product-card{
         width:90vw;
      
-        /* height: 65vh; */
+        height: 70vh;
     }
 
     .btns-container{
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        /* Botones en fila */
         gap: 10px;
+        /* Espaciado entre botones */
+        flex-wrap: wrap;
+        /* Permite que los botones se acomoden si no hay espacio */
+        margin: 40px;
     }
     
     button{
-        width: 80%;
+        flex: 1;
+        /* Ambos botones ocupan el mismo espacio */
+        max-width: 48%;
+        /* Evita que rompan el diseño */
+        padding: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        /* Bordes redondeados */
+        text-align: center;
+        cursor: pointer;
     }
 }
 

@@ -72,6 +72,31 @@ a{
 }
 
 
+
+.color-circles {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    gap: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Círculos de color */
+.color-circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+
+    border: 2px solid #d8d7d7;
+    cursor: pointer;
+}
+
+
+
 /* responsive */
 
 @media (max-width: 600px) {

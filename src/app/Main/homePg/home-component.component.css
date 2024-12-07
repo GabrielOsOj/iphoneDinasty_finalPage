@@ -1,8 +1,10 @@
 /* arreglo temporal, cambia esto ciruja */
-*{
+* {
     scroll-margin-top: 80px;
 }
 
-.banStl{
-    background-color: #f0f0f0;
+.banStl {
+    background: url(/banner_light.png);
+    background-size: cover;
 }
+

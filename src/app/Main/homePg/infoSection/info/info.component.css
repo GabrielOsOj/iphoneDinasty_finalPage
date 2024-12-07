@@ -33,23 +33,23 @@
 }
 
 .info-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 20px 0;
     color: #333;
 }
 
 .info-item p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
 }
 
 .info-icon {
-    width: 6.25rem;
+    width: 6rem;
     height: auto;
 }
 
 /* Responsivo para pantallas más pequeñas */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .info-grid {
         flex-direction: column;
         align-items: center;
@@ -58,5 +58,50 @@
     .info-item {
         width: 100%;
         margin-bottom: 20px;
+    }
+} */
+
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Máximo dos columnas */
+        gap: 10px; /* Espaciado entre las tarjetas */
+        justify-content: center;
+        align-items: stretch; /* Asegura que las tarjetas se estiren al mismo alto */
+    }
+
+    .info-item {
+        display: flex; /* Habilitar Flexbox */
+        flex-direction: column; /* Asegura que los elementos estén en columna */
+        align-items: center; /* Centra horizontalmente íconos y texto */
+        justify-content: center; /* Centra verticalmente el contenido */
+        padding: 10px; /* Espaciado interno */
+        background-color: #f9f9f9;
+        border-radius: 8px; /* Bordes redondeados */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        min-height: 120px; /* Altura mínima uniforme */
+    }
+    
+    .info-icon {
+        display: block; /* Asegura que sea un bloque centrado */
+        width: 40px; /* Ajusta el tamaño del ícono */
+        height: auto;
+        margin-bottom: 8px; /* Espacio entre el ícono y el texto */
+        text-align: center; /* Centra el ícono */
+    }
+    
+
+    .info-item h3 {
+        font-size: 0.9rem; /* Texto principal más pequeño */
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    .info-item p {
+        font-size: 0.8rem; /* Texto descriptivo más pequeño */
+        color: #666;
     }
 }

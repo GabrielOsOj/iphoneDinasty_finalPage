@@ -1,5 +1,22 @@
-<div class="product-card">
+<div class="product-card" [routerLink]="['/product',phoneDetails().modelo]">
     <img [src]="phoneDetails().imagenes[imgColorNum()].imgFront" alt="Imagen del producto" />
     <h3>{{ phoneDetails().modelo }}</h3>
-    <button [routerLink]="['/product',phoneDetails().modelo]"> <a>ver mas</a> </button>
+
+    <div class="color-circles">
+
+        @for (color of colorParser(); track $index) {
+
+        <div class="color-circle" [ngStyle]="{'background-color': color}" ></div>
+
+        }
+
+    </div>
+
+    <div class="btns-container">
+
+        <button class="btn-more" [routerLink]="['/product',phoneDetails().modelo]"> <a>ver mas</a> </button>
+        <button class="btn-compare" [routerLink]="['/comparador']"> <a>Comparar</a> </button>
+
+    </div>
+
 </div>

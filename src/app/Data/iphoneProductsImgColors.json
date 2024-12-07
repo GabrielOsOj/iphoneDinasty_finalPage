@@ -9,7 +9,7 @@
         },
         "camara": {
             "trasera": {
-                "resolucion": "12 MP Dual"
+                "resolucion": "12 MP (gran angular) + 12 MP (ultra gran angular)"
             },
             "frontal": {
                 "resolucion": "12 MP"
@@ -111,7 +111,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenColoresFamilia": "familyAllColors/all_colors_ip12_pro.webp",
+        "imagenColoresFamilia": "familyAllColors/all_colors_ip12_pro.png",
         "imagenes": [
             {
                 "imgColor": "#044d93",

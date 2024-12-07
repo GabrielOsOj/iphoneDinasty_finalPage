@@ -21,12 +21,12 @@ section {
   }
   
   .titleBox h1 {
-    font-size: 4em;
+    font-size: 3.8em;
     color: #333;
   }
   
   .titleBox p {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #666;
   }
   
@@ -39,8 +39,8 @@ section {
   }
   
   .selectorBox {
-    width: 28vw;
-    height: auto;
+    width: 26vw;
+    height: 70px;
   
     padding: 25px;
    
@@ -48,43 +48,6 @@ section {
     border-radius: 5px;
     /* border: 1px solid #ccc; */
   }
-  
-  /*
-  Estilo para los contenedores de los teléfonos 
-  .phonesContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
-  
-  @media (max-width: 768px) {
-    .titleBox h1 {
-      font-size: 2.5rem;
-    }
-  
-    .titleBox p {
-      font-size: 1rem;
-    }
-  
-    .modelSelectors {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .selectorBox {
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 15px;
-    }
-  
-    .phonesContainer {
-      flex-direction: row;
-      align-items: center;
-  
-    }
-  }
-  
   
    /*estilos sectores*/
   
@@ -99,9 +62,10 @@ section {
     flex-direction: column;
     gap: 50px;
   
-    font-size: 1.5em;
+    font-size: 1em;
   }
-  
+
+
   /*la caja con las tarjetas de cada feacture*/
   .feacture{
     width: 100%;
@@ -152,8 +116,21 @@ section {
   @media (max-width: 500px) {
   
     section{
-      font-size: .8em;
+      font-size: .7em;
     }
-  
-  
+    
+    .selectorBox {
+      height: 40px;
+      width: 140px;
+    
+      padding: 8px;
+     
+      font-size: 1.3em;
+      border-radius: 5px;
+      /* border: 1px solid #ccc; */
+    }
+
+    .phonesContainer{
+      font-size: 1.2em;
+    }
   }

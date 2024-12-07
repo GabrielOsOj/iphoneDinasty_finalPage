@@ -1,0 +1,23 @@
+[
+    {
+      "url": "/bannersAllPictures/coloredBanner/ip14_hero_black.webp",
+      "name": "ip14_hero_black",
+      "alt": "iPhone 14 en color negro"
+    },
+    {
+      "url": "/bannersAllPictures/coloredBanner/ip14_hero_gold.webp",
+      "name": "ip14_hero_gold",
+      "alt": "iPhone 14 en color dorado"
+    },
+    {
+      "url": "/bannersAllPictures/coloredBanner/ip14_hero_silver.webp",
+      "name": "ip14_hero_silver",
+      "alt": "iPhone 14 en color plateado"
+    },
+    {
+      "url": "/bannersAllPictures/coloredBanner/ip14_hero_violet.webp",
+      "name": "ip14_hero_violet",
+      "alt": "iPhone 14 en color violeta"
+    }
+  ]
+  

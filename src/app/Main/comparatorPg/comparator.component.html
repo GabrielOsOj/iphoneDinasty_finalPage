@@ -6,7 +6,7 @@
     <div class="backButton">
         <app-to-products></app-to-products>
     </div>
-    
+
     <div class="titleBox">
         <h1>Comparador de modelos</h1>
         <p>compara entre los distintos modelos que tenemos disponibles</p>
@@ -41,15 +41,25 @@
 
         <div class="phoneImgs feacture">
 
-            <app-comparador-img *ngFor="let phone of arrPhonesToCompare" [colorsPhoneImagen]="phone.imagenColoresFamilia">
-            </app-comparador-img>
+            @for (phone of arrPhonesToCompare; track $index) {
+
+            <div class="phoneImgContainer">
+
+                <app-comparador-img [AllcolorsPhoneImagen]="phone.imagenes">
+                </app-comparador-img> 
+
+                <!-- <img [src]="phone.imagenColoresFamilia" alt=""> -->
+
+            </div>
+
+            }
 
         </div>
 
         <div class="divisorSection">
             <h3>Procesador</h3>
             <div class="divisorLine"></div>
-        </div> 
+        </div>
 
         <div class="phoneCore feacture">
 
@@ -58,7 +68,7 @@
 
         </div>
 
-  
+
         <div class="divisorSection">
             <h3>Cámaras</h3>
             <div class="divisorLine"></div>
@@ -98,7 +108,7 @@
 
         </div>
 
-        
+
         <div class="divisorSection">
             <h3>Otras caracteristicas</h3>
             <div class="divisorLine"></div>

@@ -13,6 +13,7 @@
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    cursor: pointer;
 }
 
 .product-card img {
@@ -28,14 +29,37 @@
     margin: 10px 0;
 } */
 
+.btns-container{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 button {
-    background-color: #0a74da;
-    color: white;
+    height: 100%;
+    width: 40%;
+
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.8rem;
+}
+
+.btn-more{
+    background-color: #0a74da;
+    color: white;
+}
+
+.btn-compare{
+    background-color: #000000;
+    color: white;
 }
 
 h3{
@@ -48,15 +72,64 @@ a{
 }
 
 
+
+.color-circles {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    gap: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Círculos de color */
+.color-circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+
+    border: 2px solid #d8d7d7;
+    cursor: pointer;
+}
+
+
+
 /* responsive */
 
 @media (max-width: 600px) {
 
     .product-card{
         width:90vw;
-        /* height: 65vh; */
+     
+        height: 70vh;
     }
 
-  
+    .btns-container{
+        display: flex;
+        justify-content: space-between;
+        /* Botones en fila */
+        gap: 10px;
+        /* Espaciado entre botones */
+        flex-wrap: wrap;
+        /* Permite que los botones se acomoden si no hay espacio */
+        margin: 40px;
+    }
+    
+    button{
+        flex: 1;
+        /* Ambos botones ocupan el mismo espacio */
+        max-width: 48%;
+        /* Evita que rompan el diseño */
+        padding: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        /* Bordes redondeados */
+        text-align: center;
+        cursor: pointer;
+    }
 }
 

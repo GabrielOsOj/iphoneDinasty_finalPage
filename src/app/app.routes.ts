@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router';
 import { TestCMPComponent } from './Main/homePg/componentBk/test-cmp.component';
+import { ColoredBannerComponent } from './Main/homePg/coloredBanner/colored-banner.component';
 
 export const routes: Routes = [
- 
+
     {
         path: '', loadComponent: () => import('./Main/homePg/home-component.component').then(m => m.HomeComponentComponent)
     },

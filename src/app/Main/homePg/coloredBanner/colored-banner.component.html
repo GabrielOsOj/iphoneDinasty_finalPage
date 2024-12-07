@@ -1,0 +1,27 @@
+<section class="bannerBase">
+
+    <div class="headSec">
+
+        <div class="text">
+
+            <h1>Se pasa de Pro.</h1>
+
+        </div>
+        <div class="colorCircles">
+
+            <span (click)="selectImg(0)" [ngClass]="{'active':effectActive[0]}" class="colorCircle black"></span>
+            <span (click)="selectImg(1)" [ngClass]="{'active':effectActive[1]}" class="colorCircle active white"></span>
+            <span (click)="selectImg(2)" [ngClass]="{'active':effectActive[2]}" class="colorCircle gold"></span>
+            <span (click)="selectImg(3)" [ngClass]="{'active':effectActive[3]}" class="colorCircle violet"></span>
+            
+        </div>
+
+    </div>
+
+    <div class="bodySec" [routerLink]="['/product', 'iPhone 14 Pro']">
+
+        <img *ngIf="imgD" [@fadeIn] [src]="imgSelect.url" alt="">
+
+    </div>
+
+</section>

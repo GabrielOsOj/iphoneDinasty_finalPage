@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 
 import bannerRDMdata from '../../Data/banners-json/bannerRandomData.json'
+import bannerColoredImgs from '../../Data/banners-json/coloredBannerData.json'
+
 import { bannerData } from '../../Core/banners-data';
+import { objImg } from '../../Core/Objs';
 
 @Injectable({
   providedIn: 'root'
@@ -22,6 +25,12 @@ export class BannerDataSvService {
     return bannerRDMdata[id];
   }
 
+  fnGetBannerColoredImgs():Array<objImg>{
+  
+    return bannerColoredImgs
+  
+  }
+
   // fnGetManyRandomData(quantity: number): Array<bannerData>{
   //   let arr:Array<bannerData>= [...bannerRDMdata];
   //   if(quantity>=bannerRDMdata.length){
@@ -38,4 +47,5 @@ export class BannerDataSvService {
     return Math.floor(Math.random() * max);
   }
 
+  
 }

@@ -14,12 +14,13 @@ import { objVideo } from '../../Core/Objs';
 import { BannerViSvService } from '../../Services/bannerVideoSv/banner-vi-sv.service';
 import { BackTopComponent } from "../shared/back-top/back-top.component";
 import { FamilyCarrouselComponent } from '../shared/productsSection/family-carrousel/family-carrousel.component';
+import { ColoredBannerComponent } from "./coloredBanner/colored-banner.component";
 
 @Component({
   selector: 'app-home-component',
   standalone: true,
   imports: [HeaderComponent, FooterComponent, SpacerComponent, BannerComponent,
-    ImgTextComponent, FamilyCarrouselComponent, InfoComponent, FaqComponent, WssComponent, VideoFullComponent, BackTopComponent],
+    ImgTextComponent, FamilyCarrouselComponent, InfoComponent, FaqComponent, WssComponent, VideoFullComponent, BackTopComponent, ColoredBannerComponent],
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })
